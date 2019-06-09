@@ -9,7 +9,6 @@ import regex
 from .file import BaseFile, MemoryFile
 
 
-
 punctuation_re = regex.compile(r"[^\p{Word}\- ]", flags=regex.UNICODE)
 
 def header_id(value):

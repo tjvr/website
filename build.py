@@ -43,8 +43,8 @@ def make_pages():
 
     # Add site config & stylesheet to every page
     site = {
-        # TODO override title for homepage
-        "title": "LiveWires: technical activity holiday for 12–15s",
+        "title": "LiveWires",
+        "twitter": "@livewireshol",
         "generated": int(time.time()),
         "color": "#2ba8d8",
     }
