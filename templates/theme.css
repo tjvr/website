@@ -151,6 +151,13 @@ hr {
   padding: 1rem;
 }
 
+.row-paragraphs {
+  padding: 1rem 0 0;
+}
+.col-paragraph {
+  padding: 0 1rem;
+}
+
 .col-image-mixer { background: url(/assets/photo/mixer.jpg) bottom center no-repeat; }
 .col-image-bible { background: url(/assets/photo/bible.jpg) top center no-repeat; }
 .col-image-splash { background: url(/assets/photo/splash.jpg) bottom center no-repeat; }
@@ -329,7 +336,7 @@ hr {
 .cta {
   clear: both;
   text-align: center;
-  margin: 1rem auto 0;
+  margin: 2rem auto 0;
   width: 33%;
   min-width: 10em;
 
@@ -340,6 +347,9 @@ hr {
   border-radius: 2px;
   text-decoration: none;
   transition: all .2s;
+}
+.cta-final {
+  margin: 3rem auto 0;
 }
 
 .cta:hover {
