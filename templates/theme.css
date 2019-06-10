@@ -53,7 +53,7 @@ h1 {
 }
 h2, .cta, .tagline {
   font-size: 1.5rem;
-  line-height: 1.75rem;
+  line-height: 2.25rem;
   margin: 0 0 0.25rem;
 }
 p, ul, li {
@@ -108,7 +108,7 @@ p a:hover {
 .tagline {
   color: #2ba8d8;
   text-align: center;
-  margin: 1rem 0;
+  margin: 0 0 0.5rem;
   text-shadow: 0 0 1px rgba(255,255,255, 0.2)
 }
 
@@ -327,7 +327,7 @@ hr {
 .cta {
   clear: both;
   text-align: center;
-  margin: 0 auto;
+  margin: 1rem auto 0;
   width: 33%;
   min-width: 10em;
 
