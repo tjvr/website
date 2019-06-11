@@ -19,6 +19,9 @@ def make_pages():
 
     menu = ssgen.make_menu(pages)
 
+    # Copy redirects file into output folder
+    pages += [ ssgen.get_file("_redirects") ]
+
     pages += [
         ssgen.get_file("assets/favicon.ico").rename("/favicon.ico"),
     ]
