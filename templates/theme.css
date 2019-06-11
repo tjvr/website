@@ -53,7 +53,7 @@ h1 {
 }
 h2, .cta, .tagline {
   font-size: 1.5rem;
-  line-height: 1.75rem;
+  line-height: 2.25rem;
   margin: 0 0 0.25rem;
 }
 p, ul, li {
@@ -108,7 +108,7 @@ p a:hover {
 .tagline {
   color: #2ba8d8;
   text-align: center;
-  margin: 1rem 0;
+  margin: 0 0 0.5rem;
   text-shadow: 0 0 1px rgba(255,255,255, 0.2)
 }
 
@@ -151,6 +151,13 @@ hr {
   padding: 1rem;
 }
 
+.row-paragraphs {
+  padding: 1rem 0 0;
+}
+.col-paragraph {
+  padding: 0 1rem;
+}
+
 .col-image-mixer { background: url(/assets/photo/mixer.jpg) bottom center no-repeat; }
 .col-image-bible { background: url(/assets/photo/bible.jpg) top center no-repeat; }
 .col-image-splash { background: url(/assets/photo/splash.jpg) bottom center no-repeat; }
@@ -160,6 +167,7 @@ hr {
   background-size: cover;
   width: 100%;
   height: 12em;
+  margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 46rem) {
@@ -294,6 +302,7 @@ hr {
   content: "";
   display: block;
   clear: both;
+  margin-bottom: 4rem;
 }
 
 /* headshots */
@@ -327,7 +336,7 @@ hr {
 .cta {
   clear: both;
   text-align: center;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   width: 33%;
   min-width: 10em;
 
@@ -338,6 +347,9 @@ hr {
   border-radius: 2px;
   text-decoration: none;
   transition: all .2s;
+}
+.cta-final {
+  margin: 3rem auto 0;
 }
 
 .cta:hover {
