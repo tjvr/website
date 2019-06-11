@@ -1,12 +1,23 @@
 
-/python https://github.com/livewires/python  302
+/python                 https://github.com/livewires/python  302
 
+/downloads              http://downloads.livewires.org.uk/   301
+
+/meet-the-team          /#meet-the-team      302
 /about/meet-the-team    /#meet-the-team      302
+/feedback/              /#feedback           302
 /about/feedback/        /#feedback           302
 /book                   /#book               302
 /contact                /#book               302
 
-/about/activities       https://archive.livewires.org.uk/about/activities/      302
-/about/accomodation     https://archive.livewires.org.uk/about/accomodation/    302
-/helping                https://archive.livewires.org.uk/helping/               302
+/ypq                    http://info.livewires.org.uk/static/ypq/ypq.html    302
+/day                    http://info.livewires.org.uk/about/day/             302
+/about/day              http://info.livewires.org.uk/about/day/             302
+/activities             http://info.livewires.org.uk/about/activities/      302
+/about/activities       http://info.livewires.org.uk/about/activities/      302
+/accomodation           http://info.livewires.org.uk/about/accomodation/    302
+/about/accomodation     http://info.livewires.org.uk/about/accomodation/    302
+/helping                http://info.livewires.org.uk/helping/               302
+/useful-info-and-what-to-bring           http://info.livewires.org.uk/about/useful-info-and-what-to-bring/   302
+/about/useful-info-and-what-to-bring/    http://info.livewires.org.uk/about/useful-info-and-what-to-bring/   302
 
