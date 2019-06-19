@@ -59,6 +59,17 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-141670392-1');
+
+    document.addEventListener('click', function(e) {
+      var a = e.target
+      window.a = a
+      if (a.tagName !== "A") return
+      gtag('event', 'click', {
+        'event_category': a.id || 'outbound',
+        'event_label': a.href,
+        'transport_type': 'beacon',
+      })
+    })
   </script>
 
   </body>
