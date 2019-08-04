@@ -150,6 +150,9 @@ hr {
 .summary {
   padding: 1rem;
 }
+.summary-in-hero {
+  text-align: center;
+}
 
 .row-paragraphs {
   padding: 1rem 0 0;
