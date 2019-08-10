@@ -50,6 +50,21 @@
 
   <body>
 
+  <nav>
+    <ul class="menu row" role="menu">
+      <div class="bolt-white bolt-white-menu"></div>
+
+      {% for item in site.menu -%}
+      {%- if url == item.url -%}
+      <li role="menuitem" class="menuitem menuitem-active">{{ item.menu_title }}</li>
+      {%- else -%}
+      <li role="menuitem" class="menuitem"><a href="{{ item.url }}">{{ item.menu_title }}</a></li>
+      {%- endif -%}
+      {%- endfor %}
+    </ul>
+
+  </nav>
+
   {% block content %}{% endblock %}
 
   <div class=footer>

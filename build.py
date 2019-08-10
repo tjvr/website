@@ -47,6 +47,7 @@ def make_pages():
         "title": "LiveWires: technical activity holiday for 12–15s",
         "generated": int(time.time()),
         "color": "#2ba8d8",
+        "menu": menu,
     }
     for page in pages:
         page.params['site'] = site

@@ -40,7 +40,7 @@ body {
   background: #f8f8f8;
 }
 
-h1, h2, .cta, .tagline {
+h1, h2, .cta, .tagline, .menu {
   font-family: Nexa, -apple-system, Helvetica Neue, Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -394,9 +394,11 @@ hr {
   background: url("data:image/svg+xml,%3Csvg width='128' height='128' viewBox='0 0 128 128' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M96 52l-48 72 12-48H32L80 4 68 52z' fill='%23FFF' fill-rule='nonzero'/%3E%3C/svg%3E%0A") center top no-repeat;
   background-size: auto 100%;
   display: block;
+  position: absolute;
+}
+.bolt-white-footer {
   width: 4rem;
   height: 4rem;
-  position: absolute;
   top: 2rem;
   left: 2rem;
   left: calc(2rem + env(safe-area-inset-left));
@@ -410,4 +412,58 @@ hr {
   list-style: none;
 }
 
+nav {
+  display: none;
+}
+
+@media screen and (min-width: 46rem) {
+  body {
+    margin-top: 3rem;
+  }
+
+  nav {
+    display: block;
+    background: #104d7a;
+    color: #fff;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 2rem;
+  }
+
+  .menu {
+    padding: 0 1rem 0 4rem;
+    margin-top: 0;
+  }
+
+  .bolt-white-menu {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 0.25rem;
+    left: 1.75rem;
+  }
+
+  .menuitem {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .menuitem a,
+  .menuitem-active {
+    display: inline-block;
+    line-height: 2rem;
+    padding: 0 1rem;
+  }
+  .menuitem-active {
+    background: #239dc9;
+  }
+  .menuitem a:hover {
+    color: #239dc9;
+  }
+}
 
