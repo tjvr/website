@@ -56,6 +56,9 @@ h2, .cta, .cta[type=submit], .tagline {
   line-height: 2.25rem;
   margin: 0 0 0.25rem;
 }
+h3 {
+  font-size: 1.125rem;
+}
 p, ul, li {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -78,13 +81,17 @@ li {
   margin: 0 0 0.325rem 1rem;
   list-style: disc;
 }
-p a {
-  text-decoration: underline;
+
+p a,
+.activity a {
   color: #239dc9;
   transition: all .2s;
 }
-
-p a:hover {
+p a {
+  text-decoration: underline;
+}
+p a:hover,
+.activity a:hover {
   color: #0b2c35;
 }
 
@@ -105,10 +112,14 @@ p a:hover {
   margin: 1rem auto 2rem;
 }
 
+.page-title {
+  color: #2ba8d8;
+  margin: 1rem 0 1rem;
+}
+
 .tagline, .blue {
   color: #2ba8d8;
 }
-
 
 .tagline {
   text-align: center;
