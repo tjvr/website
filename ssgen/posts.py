@@ -8,6 +8,7 @@ import yaml
 
 from .file import BaseFile, LazyFile, MemoryFile
 from .markdown import is_markdown
+from .template import is_html
 
 
 
@@ -154,8 +155,8 @@ def render_page(f: BaseFile, default_template='default.html', base="/") -> BaseF
     # Set default post template
     params['template'] = default_template
 
-    # Only check for front matter in Markdown files
-    if not is_markdown(f):
+    # Only check for front matter in Markdown and HTML files
+    if not is_markdown(f) and not is_html(f):
         return f.rename(slug, params)
 
     # Parse front matter
