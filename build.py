@@ -24,17 +24,13 @@ def make_pages():
 
     pages += [
         ssgen.get_file("assets/favicon.ico").rename("/favicon.ico"),
-    ]
-
-    pages += [
         ssgen.get_file("assets/bolt-white.svg"),
         ssgen.get_file("assets/livewires-black.svg"),
+        ssgen.get_file("assets/livewires-og.jpg"),
     ]
-    pages += ssgen.find_files("assets/icon/*.png")
-    pages += ssgen.find_files("assets/icon/*.svg")
-    pages += ssgen.find_files("assets/font/*")
-
-    pages += ssgen.find_files("assets/photo/*.jpg")
+    pages += ssgen.find_files("assets/icon/*.*")
+    pages += ssgen.find_files("assets/font/*.*")
+    pages += ssgen.find_files("assets/photo/*.*")
 
     stylesheet = open("templates/theme.css").read()
     stylesheet = stylesheet.replace("\n", " ")
