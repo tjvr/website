@@ -33,15 +33,21 @@
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:title" content="{{ social_title or title | smartypants }}" />
     <meta property="og:description" content="{{ og_description or description | smartypants }}" />
-    <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_GB">
-    <meta property="og:image" content="/assets/livewires-og.jpg">
+    <meta property="og:type" content="website" />
+    {% if social_image -%}
+    <meta property="og:image" content="{{ social_image }}" />
+    {%- endif %}
 
     <meta name="twitter:site" content="{{ site.twitter }}" />
     <meta name="twitter:title" content="{{ social_title or title | smartypants }}" />
     <meta name="twitter:description" content="{{ description | smartypants }}" />
+    {% if social_image -%}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ social_image }}" />
+    {%- else -%}
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="/assets/livewires-og.jpg">
+    {%- endif %}
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon32.png" />
