@@ -43,6 +43,7 @@ def make_pages():
         "twitter": "@livewireshol",
         "generated": int(time.time()),
         "color": "#2ba8d8",
+        "url": "https://livewires.org.uk",
     }
     for page in pages:
         page.params['site'] = site

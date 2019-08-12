@@ -36,7 +36,7 @@
     <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="website" />
     {% if social_image -%}
-    <meta property="og:image" content="{{ social_image }}" />
+    <meta property="og:image" content="{{ site.url }}{{ social_image }}" />
     {%- endif %}
 
     <meta name="twitter:site" content="{{ site.twitter }}" />
@@ -44,7 +44,7 @@
     <meta name="twitter:description" content="{{ description | smartypants }}" />
     {% if social_image -%}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="{{ social_image }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ social_image }}" />
     {%- else -%}
     <meta name="twitter:card" content="summary" />
     {%- endif %}
