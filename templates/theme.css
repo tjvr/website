@@ -5,7 +5,7 @@
 
 body, div, p, textarea, pre, ul, ol, li, blockquote, hr,
 table, tbody, thead, tr, td, th,
-h1, h2, h3, h4, h5, a, button, fieldset, legend, select {
+h1, h2, h3, h4, h5, a, button, input[type=submit], fieldset, legend, select {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, a, button, fieldset, legend, select {
   outline: none;
 }
 
-a, button {
+a, button, input[type=submit] {
   white-space: normal;
   cursor: pointer;
 }
@@ -40,7 +40,7 @@ body {
   background: #f8f8f8;
 }
 
-h1, h2, h3, .cta, .tagline, .menu, fieldset strong {
+h1, h2, h3, .cta, .cta[type=submit], .tagline, .menu, fieldset strong {
   font-family: Nexa, -apple-system, Helvetica Neue, Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -51,7 +51,7 @@ h1 {
   font-size: 2rem;
   line-height: 3rem;
 }
-h2, .cta, .tagline {
+h2, .cta, .cta[type=submit], .tagline {
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin: 0 0 0.25rem;
@@ -343,7 +343,7 @@ hr {
 
 /* cta */
 
-.cta {
+.cta, .cta[type=submit] {
   clear: both;
   text-align: center;
   margin: 2rem auto 0;
@@ -439,7 +439,14 @@ fieldset {
     margin-left: 50%;
     clear: none;
     padding-left: 0.5rem;
-    padding-top: 1rem;
+  }
+
+  /* weird hack to fix fieldset-right padding-top */
+  .row-form:before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: -1px;
   }
 }
 
