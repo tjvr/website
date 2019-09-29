@@ -161,9 +161,6 @@ hr {
   text-align: center;
 }
 
-.row-paragraphs {
-  padding: 1rem 0 0;
-}
 .col-paragraph {
   padding: 0 1rem;
 }
@@ -189,6 +186,10 @@ hr {
 
   .col {
     clear: none;
+  }
+
+  .row-paragraphs {
+    padding: 1rem 0 0;
   }
 
   .col-left { margin-right: 50%; }
