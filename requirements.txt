@@ -2,7 +2,7 @@ cffi==1.11.5
 Jinja2==2.10
 MarkupSafe==1.1.0
 misaka==2.1.1
-Pillow==5.4.1
+Pillow==6.2.0
 pycparser==2.19
 PyYAML==5.1
 regex==2019.2.7
