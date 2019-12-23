@@ -141,6 +141,9 @@ hr {
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
 }
+.row-in-hero {
+  margin: 0 auto;
+}
 .row:after {
   content: "";
   display: block;
@@ -358,9 +361,6 @@ hr {
   border-radius: 2px;
   text-decoration: none;
   transition: all .2s;
-}
-.cta-final {
-  margin: 3rem auto 0;
 }
 
 .cta:hover {
