@@ -157,9 +157,6 @@ hr {
 .summary {
   padding: 1rem;
 }
-.summary-in-hero {
-  text-align: center;
-}
 
 .col-paragraph {
   padding: 0 1rem;
@@ -181,6 +178,9 @@ hr {
   .summary {
     margin-left: 16.6%;
     margin-right: 16.6%;
+    text-align: center;
+  }
+  .col-paragraph-center {
     text-align: center;
   }
 
