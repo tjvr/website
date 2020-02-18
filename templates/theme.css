@@ -125,7 +125,6 @@ p a:hover {
   text-align: center;
   clear: both;
   margin: 2rem 0;
-  clear: both;
 }
 
 /* grid */
@@ -144,11 +143,6 @@ hr {
 .row-in-hero {
   margin: 0 auto;
 }
-.row:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 .col {
   margin-top: 0;
   padding: 1rem 1rem 2rem;
@@ -165,16 +159,8 @@ hr {
   padding: 0 1rem;
 }
 
-.col-image-mixer { background: url(/assets/photo/mixer.jpg) bottom center no-repeat; }
-.col-image-bible { background: url(/assets/photo/bible.jpg) top center no-repeat; }
-.col-image-splash { background: url(/assets/photo/splash.jpg) bottom center no-repeat; }
-.col-image {
-  content: "";
-  display: block;
-  background-size: cover;
-  width: 100%;
-  height: 12em;
-  margin-bottom: 4rem;
+img {
+  max-width: 100%;
 }
 
 @media screen and (min-width: 46rem) {
@@ -187,43 +173,32 @@ hr {
     text-align: center;
   }
 
-  .col {
-    clear: none;
-  }
-
   .row-paragraphs {
     padding: 1rem 0 0;
   }
 
-  .col-left { margin-right: 50%; }
-  .col-image-left { left: env(safe-area-inset-left); right: 50%; }
-  .col-float-left { float: left; width: 50%; }
-  .col-right { margin-left: 50%; }
-  .col-image-right { left: 50%; right: env(safe-area-inset-right); }
-
-  .col-first-third { float: left; width: 33%; }
-  .col-second-third { float: left; width: 33%; }
-  .col-third-third { margin-left: 66%; }
-
-  .col-image {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    margin: 1rem;
-    width: auto;
-    height: auto;
+  .columns {
+    display: flex;
+    flex-direction: row;
   }
-
-  .row-has-image { min-height: 16rem; }
-  .row-has-map { min-height: 22rem; }
+  .columns-reverse {
+    flex-direction: row-reverse;
+  }
+  .columns > * {
+    flex: 0 0 50%;
+  }
 }
 
-.col-image-map {
+.map {
   min-height: 20rem;
+  position: relative;
 }
-.col-image-map > iframe {
+.map > iframe {
   width: 100%;
   height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 /* activities */
@@ -233,6 +208,8 @@ hr {
   padding: 0 1rem;
   padding-left: calc(2rem + env(safe-area-inset-left));
   padding-right: calc(2rem + env(safe-area-inset-right));
+  display: flex;
+  flex-wrap: wrap;
 }
 .cell {
   padding: 0 0.5rem 2rem;
@@ -247,10 +224,8 @@ hr {
 
 @media screen and (min-width: 34rem) {
   .cell {
-    float: left;
-    width: 50%;
+    flex: 0 0 50%;
   }
-  .cell:nth-child(2n+1) { clear: left; }
   .activity {
     min-height: 14rem;
   }
@@ -258,31 +233,16 @@ hr {
 
 @media screen and (min-width: 46rem) {
   .activity {
-    min-height: 11rem;
-  }
-}
-
-@media screen and (min-width: 60rem) {
-  .activity {
     min-height: 9.75rem;
   }
 }
 
-/*
-@media screen and (min-width: 60rem) {
-  .cell {
-    float: left;
-    width: 33%;
-  }
-  .cell:nth-child(2n+1) { clear: none; }
-  .cell:nth-child(3n+1) { clear: left; }
-  .activity {
-    min-height: 13.5rem;
-  }
-}
-*/
-
 /* testimonies */
+
+.row-testimonies {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .testimony {
   margin: 1rem 1rem;
@@ -293,8 +253,7 @@ hr {
 @media screen and (min-width: 46rem) {
   .testimony {
     margin: 1rem 0;
-    width: 33%;
-    float: left;
+    flex: 0 0 33%;
   }
 }
 
@@ -312,36 +271,29 @@ hr {
   width: 1.5rem;
 }
 
-.row-testimonies:after {
-  content: "";
-  display: block;
-  clear: both;
-  margin-bottom: 4rem;
-}
-
 /* headshots */
 
-.headshot {
-  float: left;
+.person {
+  display: flex;
+}
+.person-headshot {
+  flex: 0 0 8rem;
   margin: 0 2rem 2rem 0;
   text-align: center;
 }
-.headshot h2 {
+.person-headshot h2 {
   margin: 0.75rem 0 0;
 }
-.headshot img {
+.person-headshot img {
   width: 8rem;
   height: 8rem;
   border-radius: 4rem;
 }
-.headshot-bio { margin-left: 10em; }
 
 @media screen and (min-width: 46rem) {
-  .headshot {
-    float: none;
-    margin: 0 2rem 1rem 0;
+  .person {
+    display: block;
   }
-  .headshot-bio { margin-left: 0; }
 }
 
 
@@ -414,6 +366,17 @@ hr {
 .footer-links li {
   margin: 0 0 0.75em;
   list-style: none;
+}
+
+@media screen and (min-width: 46rem) {
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer-links li {
+    flex: 0 0 50%;
+  }
 }
 
 
