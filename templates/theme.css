@@ -145,8 +145,7 @@ hr {
 }
 .col {
   margin-top: 0;
-  padding: 1rem 1rem 2rem;
-  clear: both;
+  padding: 1rem 1rem 0;
 }
 .col-footer {
   padding: 0;
@@ -161,6 +160,16 @@ hr {
 
 img {
   max-width: 100%;
+}
+
+.columns {
+  flex-direction: row;
+}
+.columns-reverse {
+  flex-direction: row-reverse;
+}
+.columns > * {
+  flex: 0 0 50%;
 }
 
 @media screen and (min-width: 46rem) {
@@ -179,14 +188,15 @@ img {
 
   .columns {
     display: flex;
-    flex-direction: row;
   }
-  .columns-reverse {
-    flex-direction: row-reverse;
+  .col {
+    padding: 1rem 1rem 2rem;
   }
-  .columns > * {
-    flex: 0 0 50%;
-  }
+}
+
+.col-image {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .map {
