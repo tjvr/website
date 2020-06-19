@@ -185,6 +185,8 @@ img {
 
   .columns {
     display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
   }
   .col {
     padding: 1rem 1rem 2rem;
@@ -300,6 +302,11 @@ img {
 @media screen and (min-width: 46rem) {
   .person {
     display: block;
+  }
+  .person-headshot {
+    flex: 0 0 8rem;
+    margin: 0 0 2rem 0;
+    text-align: center;
   }
 }
 
