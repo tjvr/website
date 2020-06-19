@@ -169,6 +169,14 @@ img {
   flex-direction: row-reverse;
 }
 
+.columns--two > * {
+  flex: 0 0 50%;
+}
+
+.columns--three > * {
+  flex: 0 0 33%;
+}
+
 @media screen and (min-width: 46rem) {
   .summary {
     margin-left: 16.6%;
