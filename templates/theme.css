@@ -157,6 +157,7 @@ hr {
 .col {
   margin-top: 0;
   padding: 1rem 1rem 0;
+  width: 100%;
 }
 .col-footer {
   padding: 0;
