@@ -1,5 +1,139 @@
 ---
 title: "Technical Activities on LiveWires"
+template: "tech.html"
+
+electronics_projects:
+  guitar-pedal:
+    name: "Guitar Pedal"
+    description: "Are you a budding guitarist and would like to build your own distortion pedal? With this project, you can!"
+    cost: "~£15-£20"
+    electrical: medium
+    mechanical: medium
+
+  led-clock:
+    name: "LED Clock"
+    description: "Make your own clock to display the current time on the 7 segment LED displays. This project uses a ready made circuit board, is complete with the box and external mains power supply unit."
+    cost: "~£20-£25"
+    electrical: medium
+    mechanical: easy
+
+  digital-echo-chamber:
+    name: "Digital Echo Chamber"
+    description: "This circuit takes input from the built-in microphone, or from an external input, and allows you to add echo and feedback to your voice, or music.  This circuit uses a ready make circuit board."
+    cost: "~£15-£20"
+    electrical: medium
+    mechanical: easy
+
+  3d-led-cube:
+    name: "3D LED Cube"
+    description: "Create a 3D light cube to display a changing set of patterns. Software is provided to program lighting sequences (requires Windows XP or greater).  This circuit uses a ready made circuit board, but you will need to have experience and a steady hand to be able to solder the tricky cube joints."
+    cost: "~£20-£25"
+    electrical: medium
+    mechanical: advanced
+
+  computer-message-display:
+    name: "Computer Message Display"
+    description: "Create a second display for your computer to show drive space information, incoming emails, or display your Twitter feed. Drivers and software provided for Windows XP or greater, and a DLL is provided if you want to program it for other purposes. This uses a ready made circuit board, but you will need to have good soldering skills due to the complexity of some of the joints."
+    cost: "~£35-£40"
+    electrical: advanced
+    mechanical: medium
+
+  dual-dice:
+    name: "Dual Dice"
+    description: "With a press of a button, this dual dice will give you a roll! LEDs light to show your number."
+    cost: "~£10-£15"
+    electrical: medium
+    mechanical: easy
+
+  escape-robot:
+    name: "Escape Robot"
+    description: "Build a robot that will find its way out of a maze using sensors and its microprocessor."
+    cost: "~£25-£30"
+    electrical: medium
+    mechanical: advanced
+
+  audio-analyser:
+    name: "Audio Analyser"
+    description: "Build this little project and you can see what your musical instruments or recording are doing: with a graphic display you can see a real-time spectrum of your audio."
+    cost: "~£30-£35"
+    electrical: medium
+    mechanical: medium
+
+  parrot:
+    name: "Parrot"
+    description: "This little creature repeats your words… but in it's own voice! Complete with microphone, loudspeaker and case."
+    cost: "~£10-£15"
+    electrical: medium
+    mechanical: medium
+
+  light-beam-alarm:
+    name: "Light Beam Alarm"
+    description: "Contained in a small and easily concealed box, when an intruder passes by it emits a piercing whistle letting you know they’re there. "
+    cost: "~£10-£15"
+    electrical: medium
+    mechanical: medium
+
+  lcd-scrolling-message-display:
+    name: "LCD Scrolling Message Display"
+    description: "Display your own scrolling message! Using the on board buttons you can program this device to display scrolling text on its LCD screen. This project uses a ready-made circuit board making it ideal if you're new to electronics."
+    cost: "~£15-£20"
+    electrical: easy
+    mechanical: none
+
+  classic-arcade-game:
+    name: "Classic Arcade Game"
+    description: "Build your own arcade machine! Using the built in buttons you can play the classic Pong computer game on your TV. This project uses a ready-made circuit board making it ideal if you're new to electronics."
+    cost: "~£15-£20"
+    electrical: easy
+    mechanical: none
+
+  electronics-light-bug:
+    name: "Electronics Light Bug"
+    description: "This little critter is looking for the light! Driven by two miniature motors it can direct itself to where it detects the most light. This project uses a ready-made circuit board making it ideal if you're new to electronics."
+    cost: "~£10-£15"
+    electrical: easy
+    mechanical: easy
+
+  metronome:
+    name: "Metronome"
+    long: true
+    description: "Would a metronome help with your music playing? Would you like to build and program your own? This longer project combines both electronics and programming. You will first build your own circuit board and then learn some basic programming skills to generate a beat to keep you in time."
+    cost: "~£40"
+    electrical: medium
+    mechanical: medium
+
+  bike-alarm:
+    name: "Bike alarm"
+    long: true
+    description: "A very loud deterrent, with vibration and tilt sensors, a key switch, and optional tamper alarm."
+    cost: "~£20-£25"
+    electrical: medium
+    mechanical: medium
+
+  theremin:
+    name: "Theremin"
+    long: true
+    description: "The only instrument you can play without touching it! Create weird and wonderful music by waving your hands!"
+    cost: "~£15-£20"
+    electrical: medium
+    mechanical: medium
+
+  guitar-headphones-amp:
+    name: "Guitar Headphones Amp"
+    long: true
+    description: "Rock in the comfort of your own headphones with this battery powered box. It's a DI box too, so you can plug into a mixer if you want everyone to hear."
+    cost: "~£35-£40"
+    electrical: advanced
+    mechanical: advanced
+
+  oscilloscope:
+    name: "Oscilloscope"
+    long: true
+    description: "Have you ever wondered what is happening in an electronic circuit? Now is your chance to find out. Build this little PC powered oscilloscope and you can look at signals to your heart's content. This uses a ready made circuit board and has a reasonable number of components. All the software you need is provided as well."
+    cost: "~£30-£35"
+    electrical: advanced
+    mechanical: medium
+
 ---
 
 <div class=summary>
@@ -12,6 +146,13 @@ title: "Technical Activities on LiveWires"
   <p>We’ll teach you everything you need, and you’ll take home what you make to show off.</p>
   <p>You’ll only have time for two or three activities. This page should help you choose!</p>
 
+  <p>
+    <a href="#coding">coding</a> •
+    <a href="#electronics">electronics</a> •
+    <a href="#graphics">3D&nbsp;graphics</a> •
+    <a href="#recording">recording</a> •
+    <a href="#video">video</a>
+  </p>
 </div>
 <div class="heading" id="coding">
 
@@ -26,7 +167,7 @@ title: "Technical Activities on LiveWires"
 <div class="row columns" id="coding-web">
   <div class="col">
 
-    <h2>Web design</h2>
+    <h2>Web design <a class="anchor" href="#coding-web">#</a></h2>
     <p>Design and build design your own web pages. Learn HTML and CSS to create your very own website.</p>
 
   </div>
@@ -39,7 +180,7 @@ title: "Technical Activities on LiveWires"
 <div class="row columns columns-reverse" id="coding-js">
   <div class="col">
 
-    <h2>Programming</h2>
+    <h2>Programming <a class="anchor" href="#coding-js">#</a></h2>
     <p>Start programming for the first time by learning JavaScript. We’ll guide you through the basic concepts, and we’re here to help if you get stuck!</p>
 
   </div>
@@ -52,7 +193,7 @@ title: "Technical Activities on LiveWires"
 <div class="row columns" id="coding-games">
   <div class="col">
 
-    <h2>Games</h2>
+    <h2>Games <a class="anchor" href="#coding-games">#</a></h2>
     <p>Once you’ve got the basics of programming, you can build a game using JavaScript and our <a href="https://livewires.github.io/you-win/install">games course</a>. Create your own version of your favourite mobile game, or perhaps something entirely new.</p>
 
   </div>
@@ -75,7 +216,7 @@ title: "Technical Activities on LiveWires"
 <div class="row columns columns-reverse" id="graphics">
 
   <div class="col">
-    <h2>3D Graphics</h2>
+    <h2>3D Graphics <a class="anchor" href="#graphics">#</a></h2>
     <p>Sculpt, texture and animate virtual models or scenery using <a href="https://www.blender.org/">Blender</a>.
   </div>
   <div class="col col-image">
@@ -87,7 +228,7 @@ title: "Technical Activities on LiveWires"
 <div class="row columns" id="video">
 
   <div class="col">
-    <h2>Video Production</h2>
+    <h2>Video Production <a class="anchor" href="#video">#</a></h2>
     <p>Shoot and edit a short film or trailer, from storyboarding through to post-production.
   </div>
   <div class="col col-image">
@@ -99,7 +240,7 @@ title: "Technical Activities on LiveWires"
 <div class="row columns columns-reverse" id="recording">
 
   <div class="col">
-    <h2>Recording Studio</h2>
+    <h2>Recording Studio <a class="anchor" href="#recording">#</a></h2>
     <p>Record, edit, and master a podcast or song using professional gear.
   </div>
   <div class="col col-image">
@@ -144,160 +285,5 @@ title: "Technical Activities on LiveWires"
 
   </div>
 </div>
-<div class="row row-cells">
 
-  <div class=cell>
-    <div class=activity>
-      <h3>Guitar Pedal</h3>
-      <p>Are you a budding guitarist? Build your own distortion pedal!
-      <span class=cost>£15–£20</span>
-      <span class=difficulty>medium/medium</span>
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>LED Clock</h3>
-      <p>Build your own 7-segment LED clock using a ready-made circuit board. Includes box and power supply.
-      <span class=cost>£20–£25</span>
-      <span class=difficulty>medium/easy</span>
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Digital Echo Chamber</h3>
-      <p>Add echo and feedback to your voice or music, using an external input or the built-in microphone. Uses a ready-made circuit board.
-      <span class=cost>£15–£20</span>
-      <span class=difficulty>medium/easy</span>
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>3D LED Cube</h3>
-      <p>Build a light cube which shows a changing set of patterns. Uses a ready-made circuit board, but you’ll need experience and a steady hand! You can program your own patterns, too.
-      <span class=cost>£20–£25</span>
-      <span class=difficulty>medium/advanced</span>
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Computer Message Display</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Dual Dice</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Escape Robot</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Audio Analyser</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Parrot</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Light Beam Alarm</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>LCD Scrolling Message Display</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Electronics Light Bug</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-</div>
-<div class="summary">
-
-  <p>There are also some longer projects.
-
-</div>
-<div class="row row-cells">
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Metronome</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Bike Alarm</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Theremin</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Guitar Headphones Amp</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-  <div class=cell>
-    <div class=activity>
-      <h3>Oscilloscope</h3>
-      <p>Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a&nbsp;website.
-    </div>
-  </div>
-
-</div>
-<div class="heading" id=feedback>
-
-  <h1>Gallery</h1>
-
-</div>
-<div class=summary>
-
-  <p>Here’s the sort of thing people have made in the past!
-
-</div>
-<div class="row row-gallery">
-
-</div>
-<div class=summary>
-
-  <a class="cta cta-final" href="/#book">Book Now</a>
-
-</div>
+<!-- content from templates/tech.html follows -->
