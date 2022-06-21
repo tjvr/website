@@ -45,7 +45,7 @@ h1, h2, h3, .cta, .cta[type=submit], .tagline, .menu, fieldset strong {
   font-weight: bold;
 }
 
-/* font sizes */ 
+/* font sizes */
 
 h1 {
   font-size: 2rem;
@@ -130,7 +130,7 @@ p a:hover,
 .heading {
   background: #239dc9;
   color: #fff;
-  padding: 2rem 2rem; 
+  padding: 2rem 2rem;
   padding-left: calc(2rem + env(safe-area-inset-left));
   padding-right: calc(2rem + env(safe-area-inset-right));
   text-align: center;
@@ -240,9 +240,19 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+
+.activities {
+  margin: 1.5rem auto 0;
+  padding: 0 1rem;
+  padding-left: calc(2rem + env(safe-area-inset-left));
+  padding-right: calc(2rem + env(safe-area-inset-right));
+}
+
 .cell {
   padding: 0 0.5rem 2rem;
+  break-inside: avoid;
 }
+
 .activity {
   border: 1px solid #999;
   border-radius: 0.5rem;
@@ -267,6 +277,11 @@ a.anchor {
 }
 
 @media screen and (min-width: 46rem) {
+  .activities {
+    column-count: 2;
+    column-fill: balance;
+  }
+
   .activity {
     min-height: 9.75rem;
   }

@@ -3,7 +3,7 @@
 {% block content %}
 {{ content | safe }}
 
-<div class="row row-cells">
+<div class="row activities">
 
   {% for id in electronics_projects -%}
   {%- with p = electronics_projects[id] -%}
@@ -24,10 +24,10 @@
 </div>
 <div class="summary">
 
-  <p>There are also some longer electronics projects.
+  <p>There are also some longer electronics projects:
 
 </div>
-<div class="row row-cells">
+<div class="row activities">
 
   {% for id in electronics_projects -%}
   {%- with p = electronics_projects[id] -%}
