@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ content | safe }}
+
+<div class="row activities">
+
+  {% for id in electronics_projects -%}
+  {%- with p = electronics_projects[id] -%}
+  {%- if not p.long -%}
+  <div class=cell id="electronics-project-{{ id }}">
+    <div class=activity>
+      <h3>{{ p.name }} <a class="anchor" href="#electronics-project-{{ id }}">#</a></h3>
+      <p>{{ p.description }}</p>
+      <p class="activity-stats">
+      {{ p.cost }} • electrical:&nbsp;{{ p.electrical }} • mechanical:&nbsp;{{ p.mechanical }}
+      </span>
+    </div>
+  </div>
+  {%- endif -%}
+  {%- endwith -%}
+  {%- endfor %}
+
+</div>
+<div class="summary">
+
+  <p>There are also some longer electronics projects:
+
+</div>
+<div class="row activities">
+
+  {% for id in electronics_projects -%}
+  {%- with p = electronics_projects[id] -%}
+  {%- if p.long -%}
+  <div class=cell id="electronics-project-{{ id }}">
+    <div class=activity>
+      <h3>{{ p.name }} <a class="anchor" href="#electronics-project-{{ id }}">#</a></h3>
+      <p>{{ p.description }}</p>
+      <p class="activity-stats">
+      {{ p.cost }} • electrical:&nbsp;{{ p.electrical }} • mechanical:&nbsp;{{ p.mechanical }}
+      </span>
+    </div>
+  </div>
+  {%- endif -%}
+  {%- endwith -%}
+  {%- endfor %}
+
+</div>
+<!--
+<div class="heading" id=feedback>
+
+  <h1>Gallery</h1>
+
+</div>
+<div class=summary>
+
+  <p>Here’s the sort of thing people have made in the past!
+
+</div>
+<div class="row row-gallery">
+
+</div>
+-->
+<div class=summary>
+
+  <a class="cta cta-final" href="/#book">Book Now</a>
+
+</div>
+{% endblock %}

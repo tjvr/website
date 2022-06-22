@@ -45,7 +45,7 @@ h1, h2, h3, .cta, .cta[type=submit], .tagline, .menu, fieldset strong {
   font-weight: bold;
 }
 
-/* font sizes */ 
+/* font sizes */
 
 h1 {
   font-size: 2rem;
@@ -55,6 +55,9 @@ h2, .cta, .cta[type=submit], .tagline {
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin: 0 0 0.25rem;
+}
+h3 {
+  font-size: 1.125rem;
 }
 p, ul, li {
   font-size: 1rem;
@@ -78,13 +81,17 @@ li {
   margin: 0 0 0.325rem 1rem;
   list-style: disc;
 }
-p a {
-  text-decoration: underline;
+
+p a,
+.activity a {
   color: #239dc9;
   transition: all .2s;
 }
-
-p a:hover {
+p a {
+  text-decoration: underline;
+}
+p a:hover,
+.activity a:hover {
   color: #0b2c35;
 }
 
@@ -105,10 +112,14 @@ p a:hover {
   margin: 1rem auto 2rem;
 }
 
+.page-title {
+  color: #2ba8d8;
+  margin: 1rem 0 1rem;
+}
+
 .tagline, .blue {
   color: #2ba8d8;
 }
-
 
 .tagline {
   text-align: center;
@@ -119,7 +130,7 @@ p a:hover {
 .heading {
   background: #239dc9;
   color: #fff;
-  padding: 2rem 2rem; 
+  padding: 2rem 2rem;
   padding-left: calc(2rem + env(safe-area-inset-left));
   padding-right: calc(2rem + env(safe-area-inset-right));
   text-align: center;
@@ -146,6 +157,7 @@ hr {
 .col {
   margin-top: 0;
   padding: 1rem 1rem 0;
+  width: 100%;
 }
 .col-footer {
   padding: 0;
@@ -228,15 +240,31 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+
+.activities {
+  margin: 1.5rem auto 0;
+  padding: 0 1rem;
+  padding-left: calc(2rem + env(safe-area-inset-left));
+  padding-right: calc(2rem + env(safe-area-inset-right));
+}
+
 .cell {
   padding: 0 0.5rem 2rem;
+  break-inside: avoid;
 }
+
 .activity {
   border: 1px solid #999;
   border-radius: 0.5rem;
   background: #fff;
   padding: 1rem 2rem 0.75rem;
   box-shadow: 0 0.5rem 1rem rgba(18, 78, 100, 0.1);
+}
+.activity-stats {
+  color: #333;
+}
+a.anchor {
+  color: #888;
 }
 
 @media screen and (min-width: 34rem) {
@@ -249,6 +277,11 @@ img {
 }
 
 @media screen and (min-width: 46rem) {
+  .activities {
+    column-count: 2;
+    column-fill: balance;
+  }
+
   .activity {
     min-height: 9.75rem;
   }

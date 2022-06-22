@@ -12,11 +12,12 @@
 
 /SupporterSignup        /supporters          302
 
+/activities             /tech                302
+/about/activities       /tech                302
+
 /ypq                    http://info.livewires.org.uk/static/ypq/ypq.html    302
 /day                    http://info.livewires.org.uk/about/day/             302
 /about/day              http://info.livewires.org.uk/about/day/             302
-/activities             http://info.livewires.org.uk/about/activities/      302
-/about/activities       http://info.livewires.org.uk/about/activities/      302
 /accomodation           http://info.livewires.org.uk/about/accomodation/    302
 /about/accomodation     http://info.livewires.org.uk/about/accomodation/    302
 /helping                http://info.livewires.org.uk/helping/               302
