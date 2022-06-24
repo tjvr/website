@@ -18,8 +18,7 @@
 
 /day                    http://info.livewires.org.uk/about/day/             302
 /about/day              http://info.livewires.org.uk/about/day/             302
-/accomodation           http://info.livewires.org.uk/about/accomodation/    302
-/about/accomodation     http://info.livewires.org.uk/about/accomodation/    302
+/about/accomodation     /accomodation                                       302
 /helping                http://info.livewires.org.uk/helping/               302
 /useful-info-and-what-to-bring           http://info.livewires.org.uk/about/useful-info-and-what-to-bring/   302
 /about/useful-info-and-what-to-bring/    http://info.livewires.org.uk/about/useful-info-and-what-to-bring/   302
