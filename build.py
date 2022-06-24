@@ -31,6 +31,7 @@ def make_pages():
     pages += ssgen.find_files("assets/icon/*.*")
     pages += ssgen.find_files("assets/font/*.*")
     pages += ssgen.find_files("assets/photo/*.*")
+    pages += ssgen.find_files("assets/pdf/*.*")
 
     stylesheet = open("templates/theme.css").read()
     stylesheet = stylesheet.replace("\n", " ")
