@@ -163,7 +163,7 @@ def render_page(f: BaseFile, default_template='default.html', base="/") -> BaseF
     content = f.content
     front_matter, source = front_matter_re.fullmatch(content).groups()
     if front_matter:
-        file_params = yaml.load(front_matter)
+        file_params = yaml.unsafe_load(front_matter)
         params.update(file_params)
 
     # Front matter can override the slug
