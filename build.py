@@ -11,7 +11,7 @@ from markupsafe import Markup
 import ssgen
 
 
-def make_pages():
+def make_pages(embed_css=False):
     pages = []
 
     static_pages = ssgen.find_pages("pages/*")
@@ -33,10 +33,15 @@ def make_pages():
     pages += ssgen.find_files("assets/photo/*.*")
     pages += ssgen.find_files("assets/pdf/*.*")
 
-    stylesheet = open("templates/theme.css").read()
-    stylesheet = stylesheet.replace("\n", " ")
-    while "  " in stylesheet:
-        stylesheet = stylesheet.replace("  ", " ")
+    if embed_css:
+        stylesheet = open("templates/theme.css").read()
+        stylesheet = stylesheet.replace("\n", " ")
+        while "  " in stylesheet:
+            stylesheet = stylesheet.replace("  ", " ")
+    else:
+        pages += [
+            ssgen.get_file("templates/theme.css").rename("/theme.css")
+        ]
 
     # Add site config & stylesheet to every page
     site = {
@@ -48,24 +53,24 @@ def make_pages():
     }
     for page in pages:
         page.params['site'] = site
-        page.params['stylesheet'] = stylesheet
+        if embed_css:
+            page.params['stylesheet'] = stylesheet
         page.params['title'] = page.params.get('title') or site["title"]
 
     return pages
 
 
 # Debug
-for f in make_pages():
+watch_mode = len(sys.argv) > 1 and sys.argv[1] == "-w"
+for f in make_pages(embed_css=False):
     print(f.path)
-    params = f.params.copy()
-    params.pop("stylesheet")
-    pprint(params, depth=2)
+    pprint(f.params, depth=2)
     print()
 
 # Build
-ssgen.compile(make_pages(), "_site")
+ssgen.compile(make_pages(embed_css=True), "_site")
 
 # Serve
-if len(sys.argv) > 1 and sys.argv[1] == "-w":
+if watch_mode:
     ssgen.serve(make_pages)
 
