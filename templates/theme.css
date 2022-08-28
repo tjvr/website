@@ -56,7 +56,8 @@ body{
 
 h1, h2, h3, h4, h5, h6,
 blockquote:before,
-.cta {
+.cta,
+.tagline {
   font-family: Source Code Pro, monospace;
   font-weight: 600;
   letter-spacing: -0.02ch;
@@ -69,8 +70,42 @@ p, h2, h3, h4, h5, h6 {
 p {
   font-size: 1rem;
 }
+
+.tagline {
+  font-size: 2rem;
+  line-height: 1.25;
+  color: #4fb8de;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1.5rem 0 0.75rem;
+  padding: 1.5rem 0.75rem 0;
+  line-height: 1.25;
+  text-indent: 1.5rem;
+  position: relative;
+  border-top: 0.25ch solid #4fb8de;
+  color: #4fb8de;
+}
+h1:before {
+  content: "#";
+  position: absolute;
+  left: -0.75rem;
+  color: #dcf0fe;
+}
+img + h1 {
+  margin-top: 0;
+}
+h1.page-title {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
 h2 {
   font-size: 1.5rem;
+  line-height: 1.333;
 }
 h3 {
   font-size: 1.25rem;
@@ -82,13 +117,12 @@ h5 {
   font-size: 1rem;
 }
 
-
 img {
   margin: 0.75rem 0;
 }
 
 blockquote {
-  margin: 1.5rem 0.75rem;
+  margin: 0.75rem 0.75rem;
   padding-left: 0.75rem;
   position: relative;
 }
@@ -113,46 +147,22 @@ li:before {
   color: #4fb8de;
 }
 .footer-links li:before { 
-  color: #dcf0fe;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 1.5rem 0 0.75rem;
-  padding: 1.5rem 0.75rem 0;
-  line-height: 1;
-  text-indent: 1.5rem;
-  position: relative;
-  border-top: 0.25ch solid #4fb8de;
-}
-h1:before {
-  content: "#";
-  position: absolute;
-  left: -0.75rem;
   color: #4fb8de;
 }
-img + h1 {
-  margin-top: 0;
-}
-h1.page-title {
-  margin-top: 0;
-  padding-top: 0;
-  border-top: none;
-}
 
-a {
-  color: #4fb8de;
-  border-bottom: 0.25ch solid rgba(79, 184, 222, 0);
-}
 a, .cta > span {
-  transition: color 250ms ease-out, border-color 250ms ease-out;
+  border-bottom: 0.25ch solid;
 }
-a:hover, .cta > span {
-  border-bottom: 0.25ch solid #4fb8de;
+a:hover {
+  color: #4fb8de;
 }
 .cta {
   display: block;
   text-align: center;
+  border-bottom: none;
+}
+.cta > span {
+  color: #4fb8de;
 }
 .cta::before {
   content: "» ";
@@ -164,10 +174,10 @@ a:hover, .cta > span {
 }
 .cta:hover {
   border-bottom-color: transparent;
-  color: #dcf0fe;
+  color: #4fb8de;
 }
 .cta:hover > span {
-  border-bottom-color: #dcf0fe;
+  border-bottom-color: #4fb8de;
 }
 
 h1 {
@@ -209,7 +219,6 @@ img {
 
 .footer {
   margin: 3rem 0 0;
-  padding: 0.75rem 0;
   border-top: 0.5ch solid #dcf0fe;
 }
 .has-bolt {
