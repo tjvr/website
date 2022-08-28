@@ -72,5 +72,5 @@ ssgen.compile(make_pages(embed_css=True), "_site")
 
 # Serve
 if watch_mode:
-    ssgen.serve(make_pages)
+    ssgen.serve(make_pages, host="0.0.0.0")
 
