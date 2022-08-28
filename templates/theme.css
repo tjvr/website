@@ -111,7 +111,11 @@ h5 {
 }
 
 img {
-  margin: 0.75rem 0;
+  /* TODO find a compliant way to do this */
+  max-width: 100%;
+  width: -webkit-fill-available;
+  margin: 1.5rem 0.75rem;
+  display: block;
 }
 
 blockquote {
@@ -187,20 +191,6 @@ a:hover {
   max-width: 100%;
 }
 
-img {
-  width: 100%;
-}
-
-.person-headshot {
-  text-align: center;
-  padding: 0.75rem 1.5rem 0;
-}
-.person-headshot img {
-  width: 9rem;
-  height: 9rem;
-  border-radius: 4.5rem;
-  margin: 0;
-}
 
 .footer {
   margin: 3rem 0 0;
@@ -232,11 +222,19 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+  body > img {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 1.5rem;
     flex-direction: row;
+  }
+  .columns > img {
+    margin: 0.75rem 0;
   }
   .columns:nth-child(2n) > *:nth-child(1) {
     grid-column: 2;
@@ -250,6 +248,16 @@ img {
   }
 }
 
+.person-headshot {
+  text-align: center;
+  padding: 0.75rem 1.5rem 0;
+}
+.person-headshot img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 4.5rem;
+  margin-bottom: 0;
+}
 /*
 h1, h2, h3, .cta, .cta[type=submit], .tagline, .menu, fieldset strong {
   font-family: Nexa, -apple-system, Helvetica Neue, Arial, Helvetica, sans-serif;

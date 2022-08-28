@@ -31,6 +31,7 @@ def make_pages(embed_css=False):
     pages += ssgen.find_files("assets/icon/*.*")
     pages += ssgen.find_files("assets/font/*.*")
     pages += ssgen.find_files("assets/photo/*.*")
+    pages += ssgen.find_files("assets/photo/2022/*.*")
     pages += ssgen.find_files("assets/pdf/*.*")
 
     if embed_css:
