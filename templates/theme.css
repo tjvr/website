@@ -60,13 +60,14 @@ body {
   color: var(--text-color);
   width: 100%;
   overflow-wrap: break-word;
+  padding: 0 0.75rem;
 }
 * {
   line-height: 1.5;
 }
 
 body {
-  font-family: Open Sans, -apple-system, BlinkMacSystemFont, system-ui, Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, Helvetica Neue, Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -82,7 +83,7 @@ li:before,
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-  margin: 0.75rem 0.75rem;
+  margin: 0.75rem 0;
 }
 p {
   font-size: 1rem;
@@ -97,7 +98,7 @@ h1 {
   color: var(--accent-color);
 }
 h1.page-title {
-  margin-top: 1.5rem;
+  margin-top: 0;
 }
 h2 {
   font-size: 1.5rem;
@@ -114,15 +115,13 @@ h5 {
 }
 
 img {
-  /* TODO find a compliant way to do this */
   max-width: 100%;
-  width: -webkit-fill-available;
-  margin: 1.5rem 0.75rem;
+  margin: 1.5rem 0;
   display: block;
 }
 
 blockquote {
-  margin: 0.75rem 0.75rem;
+  margin: 0.75rem 0;
   padding-left: 0.75rem;
   position: relative;
 }
@@ -135,10 +134,13 @@ blockquote:before {
 }
 
 ul {
-  margin: 1.5rem 0.75rem;
+  margin: 0.75rem 0;
 }
 li {
   margin-bottom: 0.75rem;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 li:before {
   content: "> ";
@@ -150,8 +152,11 @@ li:before {
 .compact-links li {
   display: inline;
 }
+.compact-links li:first-child:before {
+  content: "";
+}
 .compact-links li:before { 
-  color: var(--accent-color);
+  content: "# ";
 }
 
 strong {
@@ -169,7 +174,7 @@ a:hover {
   display: block;
   text-align: center;
   border-bottom: none;
-  margin: 0.7rem 0.75rem;
+  margin: 0.7rem 0 1.5rem;
 }
 .cta > span {
   color: var(--accent-color);
@@ -194,15 +199,19 @@ a:hover {
   display: block;
   border-bottom: none;
   text-align: center;
-  margin: 0.75rem;
+  margin: 0.75rem 0 0;
 }
 .logo > svg {
   max-width: 100%;
 }
 
+.activity-stats {
+  color: var(--accent-color);
+  margin-top: -0.75rem;
+}
 
 .footer {
-  margin: 4.5rem 0 0;
+  margin: 4.5rem 0 1.5rem;
 }
 .has-bolt {
   border-top: 0.5ch solid var(--accent-color);
@@ -215,18 +224,10 @@ a:hover {
   color: var(--accent-color);
 }
 
-@media screen and (min-width: 466px) {
-  .key-points {
-    text-align: center;
-  }
-}
-
 @media screen and (min-width: 53rem) {
-  p, h1, h2, h3, h4, h5, h6,
-  ul, blockquote, .columns, .activities, #logo, .footer, form {
+  body {
+    margin: 0 auto;
     max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
   }
   body > img {
     max-width: 20rem;
@@ -251,6 +252,7 @@ a:hover {
   }
   .cta {
     font-size: 1.25rem;
+    margin: 1.5rem 0 3rem;
   }
   .activities {
     column-count: 2;
@@ -298,6 +300,9 @@ fieldset {
 }
 
 @media screen and (min-width: 46rem) {
+  h1.page-title {
+    margin-top: 0.75rem;
+  }
   fieldset {
     clear: both;
   }

@@ -10,13 +10,13 @@
   {% for id in electronics_projects -%}
   {%- with p = electronics_projects[id] -%}
   {%- if not p.long -%}
-  <div class=cell id="electronics-project-{{ id }}">
-    <div class=activity>
+  <div id="electronics-project-{{ id }}">
+    <div>
       <h3>{{ p.name }}</h3>
-      <p>{{ p.description }}</p>
       <p class="activity-stats">
       {{ p.cost }} • electrical:&nbsp;{{ p.electrical }} • mechanical:&nbsp;{{ p.mechanical }}
       </span>
+      <p>{{ p.description }}</p>
     </div>
   </div>
   {%- endif -%}
@@ -35,13 +35,13 @@
   {% for id in electronics_projects -%}
   {%- with p = electronics_projects[id] -%}
   {%- if p.long -%}
-  <div class=cell id="electronics-project-{{ id }}">
-    <div class=activity>
+  <div id="electronics-project-{{ id }}">
+    <div>
       <h3>{{ p.name }}</h3>
-      <p>{{ p.description }}</p>
       <p class="activity-stats">
       {{ p.cost }} • electrical:&nbsp;{{ p.electrical }} • mechanical:&nbsp;{{ p.mechanical }}
       </span>
+      <p>{{ p.description }}</p>
     </div>
   </div>
   {%- endif -%}
@@ -64,9 +64,7 @@
 
 </div>
 -->
-<div class=summary>
 
-  <a class="cta cta-final" href="/#book">Book Now</a>
+<a class="cta" href="/#book"><span>Book Now</span></a>
 
-</div>
 {% endblock %}
