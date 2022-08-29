@@ -1,10 +1,17 @@
 # Livewires website
 
+This is the code that powers our website:
+
+# <https://livewires.org.uk>
+
+---
+
+For team to update the website:
+
 ## Hosted with Netlify
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d9d0950d-631a-4018-8684-4ee29cf95e1e/deploy-status)](https://app.netlify.com/sites/livewires/deploys)
 
-<https://livewires.org.uk>
 
 When a pull request is merged, Netlify will automatically rebuild and deploy the website.
 
