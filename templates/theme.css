@@ -36,17 +36,17 @@ h1 { color: #239dc9; }
 
 /* The "official" logo uses #2ba8d8; the website uses higher contrast colors. */
 :root {
-  --bg-color: #000d15;
-  --text-color: #dcf0fe;
-  --foreground-color: #fff;
-  --accent-color: #4fb8de;
+  --bg-color: #fff;
+  --text-color: #000;
+  --foreground-color: #0b2c35;
+  --accent-color: #239dc9;
 }
-@media (prefers-color-scheme: light) {
-:root {
-    --bg-color: #fff;
-    --text-color: #000;
-    --foreground-color: #0b2c35;
-    --accent-color: #239dc9;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000d15;
+    --text-color: #dcf0fe;
+    --foreground-color: #fff;
+    --accent-color: #4fb8de;
   }
 }
 .fill-foreground { fill: var(--foreground-color); }
