@@ -10,7 +10,6 @@ from markupsafe import Markup
 
 import ssgen
 
-
 def make_pages():
     pages = []
 
@@ -44,7 +43,7 @@ def make_pages():
         "twitter": "@livewireshol",
         "generated": int(time.time()),
         "color": "#2ba8d8",
-        "url": os.environ.get("DEPLOY_PRIME_URL", "http://localhost:8000"),
+        "url": get_site_url()
     }
     for page in pages:
         page.params['site'] = site
@@ -52,6 +51,19 @@ def make_pages():
         page.params['title'] = page.params.get('title') or site["title"]
 
     return pages
+
+
+def get_site_url():
+    CONTEXT = os.environ.get("CONTEXT")
+    URL = os.environ.get("URL")
+    if CONTEXT == "production" and URL:
+        return URL
+
+    DEPLOY_PRIME_URL = os.environ.get("DEPLOY_PRIME_URL")
+    if DEPLOY_PRIME_URL:
+        return DEPLOY_PRIME_URL
+
+    return "http://localhost:8000"
 
 
 # Debug
