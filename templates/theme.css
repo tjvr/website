@@ -36,27 +36,30 @@ h1 { color: #239dc9; }
 
 /* The "official" logo uses #2ba8d8; the website uses higher contrast colors. */
 :root {
-  --bg-color: #fff;
-  --text-color: #000;
-  --foreground-color: #0b2c35;
-  --accent-color: #239dc9;
+  --background: #fff;
+  --text: #000;
+  --foreground: #0b2c35;
+  --accent: #239dc9;
+  --link-text: #000;
+  --link-background: #fff176;
+  --link-hover: #888;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #000d15;
-    --text-color: #dcf0fe;
-    --foreground-color: #fff;
-    --accent-color: #4fb8de;
+    --background: #000d15;
+    --text: #dcf0fe;
+    --foreground: #fff;
+    --accent: #4fb8de;
   }
 }
-.fill-foreground { fill: var(--foreground-color); }
-.fill-accent { fill: var(--accent-color); }
+.fill-foreground { fill: var(--foreground); }
+.fill-accent { fill: var(--accent); }
 
 /***/
 
 body {
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: var(--background);
+  color: var(--text);
   width: 100%;
   overflow-wrap: break-word;
   padding: 0 0.75rem;
@@ -94,7 +97,7 @@ h1 {
   padding: 0 0 0.25rem;
   line-height: 1.25;
   border-bottom: 0.25ch solid;
-  color: var(--accent-color);
+  color: var(--accent);
 }
 h1.page-title {
   margin-top: 0;
@@ -130,7 +133,7 @@ blockquote:before {
   font-weight: 600;
   position: absolute;
   left: 0;
-  color: var(--accent-color);
+  color: var(--accent);
 }
 
 ul {
@@ -144,7 +147,7 @@ li:last-child {
 }
 li:before {
   content: "> ";
-  color: var(--accent-color);
+  color: var(--accent);
 }
 .compact-links {
   margin-top: 0.75rem;
@@ -161,38 +164,35 @@ li:before {
 
 strong {
   font-weight: 600;
-  color: var(--accent-color);
+  color: var(--accent);
 }
 
 a, .cta > span {
+  background: var(--link-background);
+  color: var(--link-text);
+}
+a:hover, .cta:hover > span {
+  color: var(--link-hover);
   border-bottom: 0.25ch solid;
 }
-a:hover {
-  color: var(--accent-color);
+.cta:hover {
+  color: inherit;
+  border-bottom: none;
 }
 .cta {
   display: block;
   text-align: center;
   border-bottom: none;
   margin: 0.7rem 0 1.5rem;
-}
-.cta > span {
-  color: var(--accent-color);
+  background: none;
 }
 .cta::before {
   content: "» ";
-  color: var(--text-color);
+  color: var(--text);
 }
 .cta::after {
   content: " «";
-  color: var(--text-color);
-}
-.cta:hover {
-  border-bottom-color: transparent;
-  color: var(--accent-color);
-}
-.cta:hover > span {
-  border-bottom-color: var(--accent-color);
+  color: var(--text);
 }
 
 .logo {
@@ -202,27 +202,34 @@ a:hover {
   /* Attempt to better balance the logo horizontally */
   padding-right: 1.5rem;
 }
+a.logo, a.logo:hover {
+  background: none;
+  border-bottom: none;
+}
 .logo > svg {
   max-width: 100%;
 }
 
 .activity-stats {
-  color: var(--accent-color);
+  color: var(--accent);
   margin-top: -0.75rem;
 }
 
 .footer {
   margin: 4.5rem 0 1.5rem;
 }
+.footer a {
+  background: none;
+}
 .has-bolt {
-  border-top: 0.5ch solid var(--accent-color);
+  border-top: 0.5ch solid var(--accent);
   background-image: url("data:image/svg+xml,%3Csvg width='128' height='128' viewBox='0 0 128 128' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M96 52l-48 72 12-48H32L80 4 68 52z' fill='%234fb8de' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
   background-position: left 0.75rem;
   background-repeat: no-repeat;
   background-size: 1.5rem 1.5rem;
   padding-top: 0.75rem;
   padding-left: 2.25rem;
-  color: var(--accent-color);
+  color: var(--accent);
 }
 
 @media screen and (min-width: 53rem) {
