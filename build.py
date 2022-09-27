@@ -32,6 +32,7 @@ def make_pages(embed_css=False):
     pages += ssgen.find_files("assets/font/*.*")
     pages += ssgen.find_files("assets/photo/*.*")
     pages += ssgen.find_files("assets/pdf/*.*")
+    pages += ssgen.find_files("assets/ia-writer-duospace/*.*")
 
     if embed_css:
         stylesheet = open("templates/theme.css").read()

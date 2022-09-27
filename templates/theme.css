@@ -84,8 +84,8 @@ h1, h2, h3, h4, h5, h6,
 blockquote:before,
 li:before,
 .tagline {
-  font-family: Source Code Pro, monospace;
-  font-weight: 600;
+  font-family: 'iA Writer Duospace', monospace;
+  font-weight: bold;
   letter-spacing: -0.02ch;
   word-spacing: -0.5ch;
 }
