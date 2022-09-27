@@ -86,7 +86,6 @@ li:before,
 .tagline {
   font-family: 'iA Writer Duospace', monospace;
   font-weight: bold;
-  letter-spacing: -0.02ch;
   word-spacing: -0.5ch;
 }
 
