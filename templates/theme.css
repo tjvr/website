@@ -165,7 +165,7 @@ li:before {
     padding-left: 0;
   }
   .compact-links li:before {
-    content: "# ";
+    content: "* ";
     position: initial;
   }
   .compact-links li {
