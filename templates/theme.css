@@ -40,7 +40,7 @@ h1 { color: #239dc9; }
   --text: #061013;
   --foreground: #0b2c35;
   --accent: #239dc9;
-  --link: #bc4f20;
+  --link: #0d6e4f;
 
   --button: var(--accent);
   --button-text: var(--background);
@@ -52,7 +52,7 @@ h1 { color: #239dc9; }
     --text: #dcf0fe;
     --foreground: #fff;
     --accent: #4fb8de;
-    --link: #d56434;
+    --link: #12a579;
 
     --button: var(--accent);
     --button-text: var(--background);
@@ -184,10 +184,10 @@ strong {
 
 a {
   color: var(--link);
+  border-bottom: 0.15ch solid;
 }
 a:hover {
   color: var(--link);
-  border-bottom: 2px solid;
 }
 
 .logo {
