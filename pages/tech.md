@@ -136,11 +136,13 @@ electronics_projects:
 
 ---
 
-<h1 class=page-title>Technical Activities</h1>
+<h1 class="page-title">Technical Activities</h1>
 
-<p>Here’s everything you can try on LiveWires.</p>
-<p>We’ll teach you everything you need, and you’ll take home what you make to show off.</p>
-<p>You’ll have time for two or three different activities. This page should help you choose!</p>
+Here's everything you can try on LiveWires.
+
+We'll teach you everything you need, and you'll take home what you make to show off.
+
+You'll have time for two or three different activities. This page should help you choose!
 
 <ul class="compact-links">
   <li><a href="#coding">Coding</a></li>
@@ -148,69 +150,84 @@ electronics_projects:
   <li><a href="#electronics">Electronics</a></li>
 </ul>
 
-<h1 id="coding">Coding</h1>
+# Coding <a id="coding"></a>
 
 <div class="columns">
-  <div>
-    <p>Learn HTML and CSS, the building blocks of the Web, or take your understanding further to build an online game using Javascript.</p>
-  </div>
-  <img src="/assets/photo/tosh-hero.jpg" alt="A photograph of some code">
+<div>
+
+Learn HTML and CSS, the building blocks of the Web, or take your understanding further to build an online game using Javascript.
+
+</div>
+<img src="/assets/photo/tosh-hero.jpg" alt="A photograph of some code">
 </div>
 
-<h2 id="coding-web">Web design</h2>
-<p>Design and build your own web pages. Learn HTML and CSS to create your very own website.</p>
+## Web design <a id="coding-web"></a>
 
-<h2 id="coding-js">Programming</h2>
-<p>Start programming for the first time by learning JavaScript. We’ll guide you through the basic concepts, and we’re here to help if you get stuck!</p>
+Design and build your own web pages. Learn HTML and CSS to create your very own website.
 
-<h2 id="coding-games">Games</h2>
-<p>Once you’ve got the basics of programming, you can build a game using JavaScript and our <a href="https://livewires.github.io/you-win/install">games course</a>. Create your own version of your favourite mobile game, or perhaps something entirely new.</p>
+## Programming <a id="coding-js"></a>
 
-<h1 id="creative">Media Production</h1>
+Start programming for the first time by learning JavaScript. We’ll guide you through the basic concepts, and we’re here to help if you get stuck!
+
+## Games <a id="coding-games"></a>
+
+Once you’ve got the basics of programming, you can build a game using JavaScript and our [games course](https://livewires.github.io/you-win/install). Create your own version of your favourite mobile game, or perhaps something entirely new.
+
+# Media Production <a id="creative"></a>
 
 <div class="columns">
-  <div>
-    <p>Combine computers with your creative side! Learn how to use computers to create your own art, whether that’s music, stills or film.
-  </div>
-  <img src="/assets/photo/2019-audio.jpg" alt="Two kids mixing a recording">
+<div>
+
+Combine computers with your creative side! Learn how to use computers to create your own art, whether that’s music, stills or film.
+
+</div>
+<img src="/assets/photo/2019-audio.jpg" alt="Two kids mixing a recording">
 </div>
 
 <div class="columns columns-reverse">
-  <div>
-  <h2 id="graphics">3D Graphics</h2>
-  <p>Sculpt, texture and animate virtual models or scenery using <a href="https://www.blender.org/">Blender</a>.
-  </div>
-  <img src="/assets/photo/2019-graphics.gif" alt="A computer-rendered animation of a hut with a flag waving in the wind">
+<div>
+
+## 3D Graphics <a id="graphics"></a>
+
+Sculpt, texture and animate virtual models or scenery using [Blender](https://www.blender.org/).
+
+</div>
+<img src="/assets/photo/2019-graphics.gif" alt="A computer-rendered animation of a hut with a flag waving in the wind">
 </div>
 
-<h2 id="recording">Video Production</h2>
-<p>Shoot and edit a short film or trailer, from storyboarding through to post-production.
+## Video Production <a id="recording"></a>
 
-<h2 id="recording">Sound Production</h2>
-<p>Record, edit, and master a podcast or song using professional gear.
+Shoot and edit a short film or trailer, from storyboarding through to post-production.
 
-<h1 id="electronics">Electronics</h1>
+## Sound Production <a id="recording"></a>
 
-<p>Pick up a soldering iron and build something physical!</p>
-<p>Choose between loads of exciting projects, all carefully designed to make the most of your time with us.</p>
+Record, edit, and master a podcast or song using professional gear.
+
+# Electronics <a id="electronics"></a>
+
+Pick up a soldering iron and build something physical!
+Choose between loads of exciting projects, all carefully designed to make the most of your time with us.
 
 <div class="columns">
-  <div>
+<div>
 
-    <h2>Learn to solder</h2>
-    <p>All the projects require some soldering. Some also involve the making circuit boards and cases from scratch. But don’t worry, we’ve got the equipment and know-how to show you what you need to do!</p>
+## Learn to solder
 
-  </div>
-  <img src="/assets/photo/2019-soldering-a.jpg" alt="Girl holding soldering iron">
+All the projects require some soldering. Some also involve the making circuit boards and cases from scratch. But don’t worry, we’ve got the equipment and know-how to show you what you need to do!
+
+</div>
+<img src="/assets/photo/2019-soldering-a.jpg" alt="Girl holding soldering iron">
 </div>
 
 <div class="columns columns-reverse">
-  <div>
+<div>
 
-    <p>There’s a small extra cost for these activities, which we’ll tell you beforehand.
-    <p>Each project has two difficulty ratings: the first for the electrical work (soldering and wiring) and the second for mechanical building (PCB, drilling, filing, nuts and bolts etc.).
+There's a small extra cost for these activities, which we’ll tell you beforehand.
 
-  </div>
-  <img src="/assets/photo/2019-soldering-b.jpg" alt="Boy holding soldering iron">
+Each project has two difficulty ratings: the first for the electrical work (soldering and wiring) and the second for mechanical building (PCB, drilling, filing, nuts and bolts etc.).
+
+</div>
+<img src="/assets/photo/2019-soldering-b.jpg" alt="Boy holding soldering iron">
 </div>
 <!-- content from templates/tech.html follows -->
+
