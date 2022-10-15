@@ -1,7 +1,7 @@
 cffi==1.15.1
+cmarkgfm==0.8.0
 Jinja2==3.1.2
 MarkupSafe==2.1.1
-misaka==2.1.1
 Pillow==9.2.0
 pycparser==2.21
 PyYAML==6.0
