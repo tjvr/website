@@ -70,6 +70,6 @@ def serve(make_pages, port=8000, host="localhost"):
     TCPServer.allow_reuse_address = True
 
     with TCPServer((host, port), handler) as srv:
-        print("Listening on localhost:{}".format(port))
+        print("Listening on {}:{}".format(host, port))
         srv.serve_forever()
 

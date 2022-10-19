@@ -3,18 +3,20 @@
 {% block content %}
 {{ content | safe }}
 
-<div class="row activities">
+<h1>Electronics projects</h1>
+
+<div class="activities">
 
   {% for id in electronics_projects -%}
   {%- with p = electronics_projects[id] -%}
   {%- if not p.long -%}
-  <div class=cell id="electronics-project-{{ id }}">
-    <div class=activity>
-      <h3>{{ p.name }} <a class="anchor" href="#electronics-project-{{ id }}">#</a></h3>
-      <p>{{ p.description }}</p>
+  <div id="electronics-project-{{ id }}">
+    <div>
+      <h3>{{ p.name }}</h3>
       <p class="activity-stats">
       {{ p.cost }} • electrical:&nbsp;{{ p.electrical }} • mechanical:&nbsp;{{ p.mechanical }}
       </span>
+      <p>{{ p.description }}</p>
     </div>
   </div>
   {%- endif -%}
@@ -24,21 +26,22 @@
 </div>
 <div class="summary">
 
+  <h1>Long electronics projects</h1>
   <p>There are also some longer electronics projects:
 
 </div>
-<div class="row activities">
+<div class="activities">
 
   {% for id in electronics_projects -%}
   {%- with p = electronics_projects[id] -%}
   {%- if p.long -%}
-  <div class=cell id="electronics-project-{{ id }}">
-    <div class=activity>
-      <h3>{{ p.name }} <a class="anchor" href="#electronics-project-{{ id }}">#</a></h3>
-      <p>{{ p.description }}</p>
+  <div id="electronics-project-{{ id }}">
+    <div>
+      <h3>{{ p.name }}</h3>
       <p class="activity-stats">
       {{ p.cost }} • electrical:&nbsp;{{ p.electrical }} • mechanical:&nbsp;{{ p.mechanical }}
       </span>
+      <p>{{ p.description }}</p>
     </div>
   </div>
   {%- endif -%}
@@ -61,9 +64,9 @@
 
 </div>
 -->
-<div class=summary>
 
-  <a class="cta cta-final" href="/#book">Book Now</a>
+<p>
+  <a class="cta" href="/#book">Book Now</a>
+</p>
 
-</div>
 {% endblock %}
