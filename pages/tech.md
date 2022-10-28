@@ -150,41 +150,53 @@ You'll have time for two or three different activities. This page should help yo
   <li><a href="#electronics">Electronics</a></li>
 </ul>
 
-# Coding <a id="coding"></a>
 
-<div class="columns">
-<div>
+
+# Coding <a id="coding"></a>
 
 Learn HTML and CSS, the building blocks of the Web, or take your understanding further to build an online game using Javascript.
 
-</div>
-<img src="/assets/photo/tosh-hero.jpg" alt="A photograph of some code">
-</div>
+<div class="columns">
+<div>
 
 ## Web design <a id="coding-web"></a>
 
 Design and build your own web pages. Learn HTML and CSS to create your very own website.
 
+</div>
+<img src="/assets/photo/2022/coding.jpg">
+</div>
+
+<div class="columns columns-reverse">
+<div>
+
 ## Programming <a id="coding-js"></a>
 
 Start programming for the first time by learning JavaScript. We’ll guide you through the basic concepts, and we’re here to help if you get stuck!
+
+</div>
+<img src="/assets/photo/2022/computerhelp.jpg">
+</div>
+
+<div class="columns">
+<div>
 
 ## Games <a id="coding-games"></a>
 
 Once you’ve got the basics of programming, you can build a game using JavaScript and our [games course](https://livewires.github.io/you-win/install). Create your own version of your favourite mobile game, or perhaps something entirely new.
 
-# Media Production <a id="creative"></a>
+</div>
+<img src="/assets/photo/2022/dualscreens.jpg">
+</div>
 
-<div class="columns">
-<div>
+
+
+# Media Production <a id="creative"></a>
 
 Combine computers with your creative side! Learn how to use computers to create your own art, whether that’s music, stills or film.
 
-</div>
-<img src="/assets/photo/2019-audio.jpg" alt="Two kids mixing a recording">
-</div>
-
 <div class="columns columns-reverse">
+<img src="/assets/photo/2022/graphics.jpg">
 <div>
 
 ## 3D Graphics <a id="graphics"></a>
@@ -192,23 +204,33 @@ Combine computers with your creative side! Learn how to use computers to create 
 Sculpt, texture and animate virtual models or scenery using [Blender](https://www.blender.org/).
 
 </div>
-<img src="/assets/photo/2019-graphics.gif" alt="A computer-rendered animation of a hut with a flag waving in the wind">
+</div>
+
+<div class="columns columns">
+<img src="/assets/photo/2022/music.jpg">
+<div>
+
+## Sound Production <a id="recording"></a>
+
+Record, edit, and master a podcast or song using professional gear.
+
+</div>
 </div>
 
 ## Video Production <a id="recording"></a>
 
 Shoot and edit a short film or trailer, from storyboarding through to post-production.
 
-## Sound Production <a id="recording"></a>
+<img src="/assets/photo/2022/sound.jpg">
 
-Record, edit, and master a podcast or song using professional gear.
 
 # Electronics <a id="electronics"></a>
 
 Pick up a soldering iron and build something physical!
 Choose between loads of exciting projects, all carefully designed to make the most of your time with us.
 
-<div class="columns">
+<div class="columns columns-reverse">
+<img src="/assets/photo/2022/soldering.jpg">
 <div>
 
 ## Learn to solder
@@ -216,10 +238,10 @@ Choose between loads of exciting projects, all carefully designed to make the mo
 All the projects require some soldering. Some also involve the making circuit boards and cases from scratch. But don’t worry, we’ve got the equipment and know-how to show you what you need to do!
 
 </div>
-<img src="/assets/photo/2019-soldering-a.jpg" alt="Girl holding soldering iron">
 </div>
 
-<div class="columns columns-reverse">
+<div class="columns">
+<img src="/assets/photo/2022/electronics.jpg">
 <div>
 
 There's a small extra cost for these activities, which we’ll tell you beforehand.
@@ -227,7 +249,6 @@ There's a small extra cost for these activities, which we’ll tell you beforeha
 Each project has two difficulty ratings: the first for the electrical work (soldering and wiring) and the second for mechanical building (PCB, drilling, filing, nuts and bolts etc.).
 
 </div>
-<img src="/assets/photo/2019-soldering-b.jpg" alt="Boy holding soldering iron">
 </div>
-<!-- content from templates/tech.html follows -->
 
+<!-- content from templates/tech.html follows -->
