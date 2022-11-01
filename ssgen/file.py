@@ -27,6 +27,9 @@ class BaseFile:
             return 'text/html'
         if t:
             return t
+        _, ext = os.path.splitext(self.relative_path)
+        if ext.lower() == '.md':
+            return 'text/markdown'
         return ""
 
     @property
