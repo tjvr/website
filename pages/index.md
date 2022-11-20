@@ -12,8 +12,9 @@ og_description: "Start your summer with a week learning about Jesus and technolo
 * August 2023
 * Salisbury, UK
 
-<div class="row columns">
-<div class="col">
+<div class="columns columns-reverse">
+<img src="/assets/photo/2022/electronics.jpg">
+<div>
 
 ## Choose from coding, electronics, music production and more!
 
@@ -22,13 +23,11 @@ Build a technical project from scratch, with the tools used by professionals.
 We've got the knowledge and the gear to teach you everything you need to know. And you’ll take home what you've made to show off.
 
 </div>
-<div class="col col-image">
-<img src="/assets/photo/2019-audio.jpg">
-</div>
 </div>
 
-<div class="row columns columns-reverse">
-<div class="col">
+<div class="columns">
+<img src="/assets/photo/2019-talk.jpg">
+<div>
 
 ## Is there more to life than tech?
 
@@ -37,23 +36,20 @@ Dig into the Bible through short talks, chatting with new friends, and praying t
 <!--<p>In 2022 we’ll be exploring the whole story of the Bible, seeing more of God’s plan for His people, living in His world, and experiencing His blessing.</p>-->
 
 </div>
-<div class="col col-image">
-<img src="/assets/photo/2019-talk.jpg">
-</div>
 </div>
 
-<div class="row columns columns">
-<div class="col">
+<div class="columns columns-reverse">
+<img src="/assets/photo/2019-board-games.jpg">
+<div>
 
 ## Take a break
 
 We take time away from the computers every afternoon: jump in the pool, or chat by the sofa. You'll end the day in a silly game with your dorm mates. The food's amazing, and there's the day out off-site too!
 
 </div>
-<div class="col col-image">
-<img src="/assets/photo/2019-board-games.jpg">
 </div>
-</div>
+
+
 
 # Get stuck in
 
@@ -69,6 +65,10 @@ We'll teach you everything you need, and you'll come away with something cool to
 
 [See everything you can do »](/tech/)
 
+<img src="/assets/photo/2022/dualscreens.jpg" />
+
+
+
 # What do people say?
 
 > The tech was really fun, but the spiritual stuff was inspiring.
@@ -82,6 +82,8 @@ We'll teach you everything you need, and you'll come away with something cool to
 > A big thank you to all the leaders for making LiveWires such a wonderful holiday.
 
 > Can I come back as a leader?
+
+
 
 # Meet the team
 
@@ -116,6 +118,9 @@ He lives in York with his wife Eliza and their 8 stringed instruments, two drum 
 </div>
 </div>
 </div>
+
+<img src="/assets/photo/2022/team.jpg" />
+
 
 # How to book <a id="book"></a>
 
