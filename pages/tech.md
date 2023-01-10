@@ -94,14 +94,6 @@ electronics_projects:
     electrical: easy
     mechanical: easy
 
-  metronome:
-    name: "Metronome"
-    long: true
-    description: "Would a metronome help with your music playing? Would you like to build and program your own? This longer project combines both electronics and programming. You will first build your own circuit board and then learn some basic programming skills to generate a beat to keep you in time."
-    cost: "~£40"
-    electrical: medium
-    mechanical: medium
-
   bike-alarm:
     name: "Bike alarm"
     long: true
@@ -109,13 +101,13 @@ electronics_projects:
     cost: "~£20-£25"
     electrical: medium
     mechanical: medium
-
-  theremin:
-    name: "Theremin"
+    
+  oscilloscope:
+    name: "Oscilloscope"
     long: true
-    description: "The only instrument you can play without touching it! Create weird and wonderful music by waving your hands!"
-    cost: "~£15-£20"
-    electrical: medium
+    description: "Have you ever wondered what is happening in an electronic circuit? Now is your chance to find out. Build this little PC powered oscilloscope and you can look at signals to your heart's content. This uses a ready made circuit board and has a reasonable number of components. All the software you need is provided as well."
+    cost: "~£30-£35"
+    electrical: advanced
     mechanical: medium
 
   guitar-headphones-amp:
@@ -126,13 +118,15 @@ electronics_projects:
     electrical: advanced
     mechanical: advanced
 
-  oscilloscope:
-    name: "Oscilloscope"
+  theremin:
+    name: "Theremin"
     long: true
-    description: "Have you ever wondered what is happening in an electronic circuit? Now is your chance to find out. Build this little PC powered oscilloscope and you can look at signals to your heart's content. This uses a ready made circuit board and has a reasonable number of components. All the software you need is provided as well."
-    cost: "~£30-£35"
-    electrical: advanced
+    description: "The only instrument you can play without touching it! Create weird and wonderful music by waving your hands!"
+    cost: "~£15-£20"
+    electrical: medium
     mechanical: medium
+
+
 
 ---
 
