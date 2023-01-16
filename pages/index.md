@@ -10,7 +10,7 @@ og_description: "Start your summer with a week learning about Jesus and technolo
 
 * Technical activity week for 12–15s
 * 6th - 13th August 2023
-* Chafyn Grove School, Salisbury, UK
+* Salisbury, UK
 
 <a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1066" target="blank" rel="noopener" id="book-now">Book now!</a>
 
@@ -100,7 +100,7 @@ including the overall leaders Joel & Roger.
 </div>
 <div class="person-bio">
 
-Roger is an electronic engineer specialising in aircraft ejector seats. During LiveWires, you’re likely to find him peering at circuit boards and diagrams.
+Roger is an electronic engineer specialising in aircraft ejection seats. During LiveWires, you’re likely to find him peering at circuit boards and diagrams.
 
 He lives in Uxbridge with his wife Nicola and daughter Rachel. In his spare time he’s a keen photographer!
 
