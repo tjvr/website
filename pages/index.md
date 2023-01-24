@@ -9,8 +9,10 @@ og_description: "Start your summer with a week learning about Jesus and technolo
 <h1 class="page-title">Learn more about Jesus and technology this summer.</h1>
 
 * Technical activity week for 12–15s
-* August 2023
+* 6th - 13th August 2023
 * Salisbury, UK
+
+<a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1066" target="blank" rel="noopener" id="book-now">Book now!</a>
 
 <div class="columns columns-reverse">
 <img src="/assets/photo/2022/electronics.jpg">
@@ -31,7 +33,7 @@ We've got the knowledge and the gear to teach you everything you need to know. A
 
 ## Is there more to life than tech?
 
-Dig into the Bible through short talks, chatting with new friends, and praying together. Ask questions about the Christian faith, and discover what really matters.
+Dig into the Bible through short talks, chatting with new friends, and praying together. Ask questions about the Christian faith, and explore things that really matter.
 
 <!--<p>In 2022 we’ll be exploring the whole story of the Bible, seeing more of God’s plan for His people, living in His world, and experiencing His blessing.</p>-->
 
@@ -98,7 +100,7 @@ including the overall leaders Joel & Roger.
 </div>
 <div class="person-bio">
 
-Roger is an electronic engineer specialising in aircraft ejector seats. During LiveWires, you’re likely to find him peering at circuit boards and diagrams.
+Roger is an electronic engineer specialising in aircraft ejection seats. During LiveWires, you’re likely to find him peering at circuit boards and diagrams.
 
 He lives in Uxbridge with his wife Nicola and daughter Rachel. In his spare time he’s a keen photographer!
 
@@ -111,9 +113,9 @@ He lives in Uxbridge with his wife Nicola and daughter Rachel. In his spare time
 </div>
 <div class="person-bio">
 
-Joel is an amateur musician, supported by a full time job as an Electronic Design Engineer. During LiveWires you’ll probably find him playing an instrument or updating the timetable.
+Joel is an amateur musician, supported by a full time job as an electronics engineer. During LiveWires you’ll probably find him playing an instrument or coiling up cables.
 
-He lives in York with his wife Eliza and their 8 stringed instruments, two drum kits and an old casiotone keyboard called Gerald.
+He lives in York with his wife Eliza and their 9 stringed instruments, three drum kits and an old casiotone keyboard called Gerald.
 
 </div>
 </div>
@@ -124,11 +126,9 @@ He lives in York with his wife Eliza and their 8 stringed instruments, two drum 
 
 # How to book <a id="book"></a>
 
-Dates aren't yet fixed for LiveWires 2023, but you can pre-register to find out as soon as bookings are open.
+LiveWires bookings are managed by [Scripture Union](https://events.scriptureunion.org.uk/). SU have been running summer holidays for over a hundred years.
 
-LiveWires bookings are managed by [Scripture Union](https://content.scriptureunion.org.uk/holiday/livewires-0). SU have been running summer holidays for over a hundred years.
-
-<a class="cta" href="/prereg" target="blank" rel="noopener" id="book-now">Pre-register now!</a>
+<a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1066" target="blank" rel="noopener" id="book-now">Book now!</a>
 
 Still have questions? Get in touch! Email Joel &amp; Roger at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;</a>,
 or give them a call on [020 3397 1111](tel:02033971111).
