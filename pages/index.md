@@ -35,7 +35,7 @@ We've got the knowledge and the gear to teach you everything you need to know. A
 
 Dig into the Bible through short talks, chatting with new friends, and praying together. Ask questions about the Christian faith, and explore things that really matter.
 
-<!--<p>In 2022 we’ll be exploring the whole story of the Bible, seeing more of God’s plan for His people, living in His world, and experiencing His blessing.</p>-->
+In 2023 we’ll be exploring the book of Ruth, and seeing how God turns bitterness into blessing
 
 </div>
 </div>
@@ -86,6 +86,14 @@ We'll teach you everything you need, and you'll come away with something cool to
 > Can I come back as a leader?
 
 
+# Where is it?
+
+LiveWires is held in the grounds of a boarding school in Salisbury. The school has great facilities including tennis courts, a heated pool and a big playing field.
+
+We do most of our technical activites in the school's classrooms and sleep in the dorms. There are usually about 5 or 6 young people in each dorm. Larger activities are held in the school hall or the dining hall, where we also enjoy the delicious meals.
+
+The site is easily accessible by car, or if public transport is preferred we can collect from Salisbury train or coach stations. Arrival time is from 4:30PM, but if you arrive early there's plenty to see in the city centre.
+
 
 # Meet the team
 
@@ -120,6 +128,8 @@ He lives in York with his wife Eliza and their 9 stringed instruments, three dru
 </div>
 </div>
 </div>
+
+[See what's involved in getting involved >>](/helping/)
 
 <img src="/assets/photo/2022/team.jpg" />
 
