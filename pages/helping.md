@@ -8,7 +8,7 @@ og_description: "Start your summer with a week learning about Jesus and technolo
 
 # Helping at LiveWires
 
-This page answers some questions for people thinking about joining us as team members. If you want to know what's on offer at LiveWires have a look at the About page.
+This page answers some questions for people thinking about joining us as team members. If you want to know what's on offer at LiveWires have a look at the homepage.
 
 ### What's the aim of LiveWires?
 
@@ -112,10 +112,10 @@ The cost for 2023 is to be confirmed, but is usually about 75% of the guests' fe
 
 Some of the names below are used on LiveWires…
 
-**YP** is the shorthand term often used to refer to the “young people”.
-**The Link** is the spiritual sessions, including small groups, worship and Bible teaching.
-**The Zone** is the afternoon activities free time. This time may be used for sports, craft, technical demonstrations, talks, debates and discussions. Team members are needed to supervise sports and board games, host demonstrations or debates, or just to chat with or join in alongside the young people.
-**Epilogue** is the late night dormitory group time. The two or three team members assigned to the dorm choose what to do in this time, which may vary from a chat about the events of the day (particularly with the younger ones) to a bible study or in depth discussion of an issue that the young people have raised.
+* **YP** is the shorthand term often used to refer to the “young people”.
+* **The Link** is the spiritual sessions, including small groups, worship and Bible teaching.
+* **The Zone** is the afternoon activities free time. This time may be used for sports, craft, technical demonstrations, talks, debates and discussions. Team members are needed to supervise sports and board games, host demonstrations or debates, or just to chat with or join in alongside the young people.
+* **Epilogue** is the late night dormitory group time. The two or three team members assigned to the dorm choose what to do in this time, which may vary from a chat about the events of the day (particularly with the younger ones) to a bible study or in depth discussion of an issue that the young people have raised.
 
 ### How do I join?
 
