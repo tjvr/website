@@ -51,7 +51,7 @@ We take time away from the computers every afternoon: jump in the pool, or chat 
 </div>
 </div>
 
-
+[Take a look at a normal LiveWires day »](/day/)
 
 # Get stuck in
 
