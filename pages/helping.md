@@ -119,7 +119,7 @@ Some of the names below are used on LiveWires…
 
 ### How do I join?
 
-You should get in touch with us in the first instance. SU have a thorough screening and application process for new team members: the holiday leaders will generally want to chat with you first, then you'll need to fill in an application form, provide references (one of whom will need to be your current church minister), and pass a Disclosure and Barring Scheme (DBS) check. You can the co-leaders at livewires@scriptureunion.org.uk
+You should get in touch with us in the first instance. SU have a thorough screening and application process for new team members: the holiday leaders will generally want to chat with you first, then you'll need to fill in an application form, provide references (one of whom will need to be your current church minister), and pass a Disclosure and Barring Scheme (DBS) check. You can the co-leaders at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;</a>
 
 ### Want to know more about volunteering?
 

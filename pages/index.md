@@ -35,7 +35,7 @@ We've got the knowledge and the gear to teach you everything you need to know. A
 
 Dig into the Bible through short talks, chatting with new friends, and praying together. Ask questions about the Christian faith, and explore things that really matter.
 
-In 2023 we’ll be exploring the book of Ruth, and seeing how God turns bitterness into blessing
+In 2023 we’ll be exploring the book of Ruth, and seeing how God turns bitterness into blessing.
 
 </div>
 </div>
@@ -68,7 +68,6 @@ We'll teach you everything you need, and you'll come away with something cool to
 [See everything you can do »](/tech/)
 
 <img src="/assets/photo/2022/dualscreens.jpg" />
-
 
 
 # What do people say?
@@ -129,7 +128,7 @@ He lives in York with his wife Eliza and their 9 stringed instruments, three dru
 </div>
 </div>
 
-[See what's involved in getting involved >>](/helping/)
+[See what's involved in getting involved »](/helping/)
 
 <img src="/assets/photo/2022/team.jpg" />
 
@@ -139,6 +138,8 @@ He lives in York with his wife Eliza and their 9 stringed instruments, three dru
 LiveWires bookings are managed by [Scripture Union](https://events.scriptureunion.org.uk/). SU have been running summer holidays for over a hundred years.
 
 <a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1066" target="blank" rel="noopener" id="book-now">Book now!</a>
+
+Bookings close when the camp is full, or on 14th July at the latest, so book now to avoid missing out!
 
 Still have questions? Get in touch! Email Joel &amp; Roger at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;</a>,
 or give them a call on [020 3397 1111](tel:02033971111).

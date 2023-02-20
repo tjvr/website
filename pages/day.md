@@ -9,7 +9,7 @@ og_description: "Start your summer with a week learning about Jesus and technolo
 # A Day On LiveWires
 
 <div class="columns" style="grid-template-columns: 1fr 2.2fr;">
-<img src="/assets/timetable.png" >
+<img src="/assets/timetable.png" alt="A graphic showing the breakdown of the day in 15 minute chunks">
 <div>
 
 The day starts with **wake up** - don't worry, we'll make sure you don't oversleep and miss the day! - followed by heading down to the dining room for breakfast.
