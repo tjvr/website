@@ -27,6 +27,7 @@ def make_pages(embed_css=False):
         ssgen.get_file("assets/bolt-white.svg"),
         ssgen.get_file("assets/livewires-black.svg"),
         ssgen.get_file("assets/livewires-og.jpg"),
+        ssgen.get_file("assets/timetable.png"),
     ]
     pages += ssgen.find_files("assets/icon/*.*")
     pages += ssgen.find_files("assets/font/*.*")
