@@ -30,6 +30,7 @@ def make_pages(embed_css=False):
         ssgen.get_file("assets/timetable.png"),
     ]
     pages += ssgen.find_files("assets/icon/*.*")
+    pages += ssgen.find_files("assets/img/*.*")
     pages += ssgen.find_files("assets/font/*.*")
     pages += ssgen.find_files("assets/photo/*.*")
     pages += ssgen.find_files("assets/photo/2022/*.*")
