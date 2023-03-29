@@ -104,7 +104,8 @@ At the same time, other team members (some on the planning team, some not) are r
 ### How much time is involved throughout the year?
 
 Starting in early July, there is the planning weekend which runs from Friday evening to Sunday afternoon. The holiday itself is eight days in mid August, then there is an optional YP reunion in late Autumn and an optional team reunion in the early spring. Of course, there is also time spent praying, keeping in touch with the YP, etc.
-What costs are involved?
+
+### What costs are involved?
 
 The cost for 2023 is to be confirmed, but is usually about 75% of the guests' fee. If you are at all concerned about the cost please do let us know as there are discounts and bursaries available.
 
