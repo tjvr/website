@@ -3,13 +3,6 @@ title: "Technical Activities on LiveWires"
 template: "tech.html"
 
 electronics_projects:
-  guitar-pedal:
-    name: "Guitar Pedal"
-    description: "Are you a budding guitarist and would like to build your own distortion pedal? With this project, you can!"
-    cost: "~£15-£20"
-    electrical: medium
-    mechanical: medium
-
   led-clock:
     name: "LED Clock"
     description: "Make your own clock to display the current time on the 7 segment LED displays. This project uses a ready made circuit board, is complete with the box and external mains power supply unit."
@@ -23,10 +16,17 @@ electronics_projects:
     cost: "~£15-£20"
     electrical: medium
     mechanical: easy
+    
+  guitar-pedal:
+    name: "Guitar Pedal"
+    description: "Are you a budding guitarist and would like to build your own distortion pedal? With this project, you can!"
+    cost: "~£15-£20"
+    electrical: medium
+    mechanical: medium
 
   3d-led-cube:
     name: "3D LED Cube"
-    description: "Create a 3D light cube to display a changing set of patterns. Software is provided to program lighting sequences (requires Windows XP or greater).  This circuit uses a ready made circuit board, but you will need to have experience and a steady hand to be able to solder the tricky cube joints."
+    description: "Create a 3D light cube to display a changing set of patterns. Software is provided to program lighting sequences.  This circuit uses a ready made circuit board, but you will need to have experience and a steady hand to be able to solder the tricky cube joints."
     cost: "~£20-£25"
     electrical: medium
     mechanical: advanced
@@ -101,7 +101,7 @@ electronics_projects:
     cost: "~£20-£25"
     electrical: medium
     mechanical: medium
-    
+
   oscilloscope:
     name: "Oscilloscope"
     long: true
@@ -195,7 +195,7 @@ Combine computers with your creative side! Learn how to use computers to create 
 
 ## 3D Graphics <a id="graphics"></a>
 
-Sculpt, texture and animate virtual models or scenery using [Blender](https://www.blender.org/).
+Sculpt, texture and animate your own virtual models or scenery using [Blender](https://www.blender.org/).
 
 </div>
 </div>
@@ -206,14 +206,14 @@ Sculpt, texture and animate virtual models or scenery using [Blender](https://ww
 
 ## Sound Production <a id="recording"></a>
 
-Record, edit, and master a podcast or song using professional gear.
+Work with others to record, edit, and master a podcast or song with guidance and gear from the professionals.
 
 </div>
 </div>
 
 ## Video Production <a id="recording"></a>
 
-Shoot and edit a short film or trailer, from storyboarding through to post-production.
+Shoot and edit a short film or trailer, from storyboarding through to post-production. This is a group activity.
 
 <img src="/assets/photo/2022/sound.jpg">
 
