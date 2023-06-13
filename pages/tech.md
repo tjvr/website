@@ -55,7 +55,7 @@ electronics_projects:
   audio-analyser:
     name: "Audio Analyser"
     description: "Build this little project and you can see what your musical instruments or recording are doing: with a graphic display you can see a real-time spectrum of your audio."
-    cost: "~£30-£35"
+    cost: "~£35-£40"
     electrical: medium
     mechanical: medium
 
@@ -98,7 +98,7 @@ electronics_projects:
     name: "Bike alarm"
     long: true
     description: "A very loud deterrent, with vibration and tilt sensors, a key switch, and optional tamper alarm."
-    cost: "~£20-£25"
+    cost: "~£25-£30"
     electrical: medium
     mechanical: medium
 
