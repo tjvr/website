@@ -12,7 +12,7 @@ og_description: "Start your summer with a week learning about Jesus and technolo
 * 11th - 18th August 2024
 * Salisbury, UK
 
-<a class="cta" rel="noopener" id="book-now">Booking open soon</a>
+<a class="cta" rel="noopener" id="book-now">Bookings open soon!</a>
 
 <div class="columns columns-reverse">
 <img src="/assets/photo/2022/electronics.jpg">
@@ -135,7 +135,7 @@ He lives in York with his wife Eliza and their 9 stringed instruments, three dru
 
 LiveWires bookings are managed by [Scripture Union](https://events.scriptureunion.org.uk/). SU have been running summer holidays for over a hundred years.
 
-<a class="cta" rel="noopener" id="book-now">Book open soon!</a>
+<a class="cta" rel="noopener" id="book-now">Bookings open soon!</a>
 
 Bookings close when the camp is full, or on 14th July at the latest, so book now to avoid missing out!
 
