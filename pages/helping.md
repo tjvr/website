@@ -1,8 +1,8 @@
 ---
 title: "Fancy Helping Out?"
-social_title: "technical activity week for 12–15s"
+social_title: "technical activity week for 12–17s"
 social_image: "/assets/livewires-og.jpg"
-description: "LiveWires is a technical activity week for 12–15s. Start your summer learning about Jesus and technology."
+description: "LiveWires is a technical activity week for 12–17s. Start your summer learning about Jesus and technology."
 og_description: "Start your summer with a week learning about Jesus and technology."
 ---
 
@@ -53,19 +53,19 @@ Some of the training is dedicated to new team and there are usually two or three
 
 For every activity on the holiday team members are in pairs or larger groups, so you should never have to cope alone. Other members of the team are always happy to give advice, ideas, and share resources.
 
-### I'm only 17. Can I still help?
+### I'm only 18 and still at school. Can I still help?
 
-If you are under 18, you can come as a junior leader. No-one joins the team just because they've been on the holiday before; rather we see what sort of things people are doing, their current interests and skills, their church situation, and then all pray about it.
+Of course! No-one joins the team just because they've been on the holiday before; rather we see what sort of things people are doing, their current interests and skills, their church situation, and then all pray about it.
 
-However, junior leaders can't have as much responsibility as an over-18 year-old leader, in particular they can't be asked to take sole responsibility for a group of young people on the holiday but unlike some holidays, we treat junior leaders as full team in every other respect: they get to do the same as everyone else.
+We make sure that you're leading the younger kids on the camp, to help you into a leadership role. But you get just at much responsibility as any other leader: you'll be full team in every respect and you get to do the same as everyone else.
 
-Unlike over-18 team members, we don't have to run a check with the Disclosure and Barring Scheme (Criminal Records Bureau), but we might still take up references from your church leader, as well as another independent adult that knows you well.
+We also aim to provide some training and teaching to help you learn what leadership in a Christ-like manner looks like.
 
 ### Where does all the equipment come from?
 
-Almost all of the technical equipment is provided by current or past team members, or their friends, colleagues or workplaces. Many team members generously make their own computers available to the young people. The equipment is kept permanently in the classrooms of the school, with the young people having supervised access.
+Almost all of the technical equipment is provided by current or past team members, or their friends, colleagues or workplaces. Many team members generously make their own equipment available to the young people. The equipment is kept permanently in the classrooms of the school, with the young people having supervised access.
 
-Scripture Union has an insurance policy to cover the safety of equipment loaned to the holiday. Do talk to one of the co-leaders, or technical co-ordinators for more information on how to include equipment on this insurance if your domestic insurance does not cover such items when away from home.
+Scripture Union has an insurance policy to cover the safety of equipment loaned to the holiday. Do talk to one of the co-leaders or technical co-ordinators for more information on how to include equipment on this insurance if your domestic insurance does not cover such items when away from home.
 
 ### Where do I sleep?
 
@@ -87,7 +87,7 @@ Epilogues are held in dormitory groups which are defined largely by the young pe
 
 To get a feel for a LiveWires day have a look at the [timetable](/day/). It varies slightly from day to day, but normally starts for the team with a brief team meeting before breakfast.
 
-After breakfast (and the washing up, according to the dorm rota), there is a time of worship and Bible study all together. The first and second technical sessions fill the remainder of the morning, divided by a coffee break (and tuck shop).
+After breakfast (and the washing up!), there is a time of worship and Bible study all together. The first and second technical sessions fill the remainder of the morning, divided by a coffee break (and tuck shop).
 
 Lunch is followed by another technical session and then a team meeting. Then there is a period of free time (when the young people are shut out of the technical rooms, and do sports, swimming, crafts or other activities).
 
@@ -103,11 +103,11 @@ At the same time, other team members (some on the planning team, some not) are r
 
 ### How much time is involved throughout the year?
 
-Starting in early July, there is the planning weekend which runs from Friday evening to Sunday afternoon. The holiday itself is eight days in mid August, then there is an optional YP reunion in late Autumn and an optional team reunion in the early spring. Of course, there is also time spent praying, keeping in touch with the YP, etc.
+Starting in early July, there is the planning weekend which runs from Friday evening to Sunday afternoon. The holiday itself is eight days in mid August, then there optional reunions for YP and team throughout the year. Of course, there is also time spent praying, keeping in touch with the YP, etc.
 
 ### What costs are involved?
 
-The cost for 2023 is to be confirmed, but is usually about 75% of the guests' fee. If you are at all concerned about the cost please do let us know as there are discounts and bursaries available.
+To keep the cost reasonable for the guests, we ask the team to contribute their food and board costs. For 2024 the cost will be £329, but please don't let this get in the way of helping out. There are discounts and bursaries available, so get in touch with the co-leaders to find out more.
 
 ### Various terms and explanations
 
@@ -120,7 +120,7 @@ Some of the names below are used on LiveWires…
 
 ### How do I join?
 
-You should get in touch with us in the first instance. SU have a thorough screening and application process for new team members: the holiday leaders will generally want to chat with you first, then you'll need to fill in an application form, provide references (one of whom will need to be your current church minister), and pass a Disclosure and Barring Scheme (DBS) check. You can the co-leaders at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;</a>
+You should get in touch with us in the first instance. SU have a thorough screening and application process for new team members: the holiday leaders will generally want to chat with you first, then you'll need to fill in an application form, provide references (one of whom will need to be your current church minister), and pass a Disclosure and Barring Scheme (DBS) check. You can contact the co-leaders at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;</a>
 
 ### Want to know more about volunteering?
 

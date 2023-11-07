@@ -1,18 +1,18 @@
 ---
-title: "LiveWires: technical activity week for 12–15s"
-social_title: "technical activity week for 12–15s"
+title: "LiveWires: technical activity week for 12–17s"
+social_title: "technical activity week for 12–17s"
 social_image: "/assets/livewires-og.jpg"
-description: "LiveWires is a technical activity week for 12–15s. Start your summer learning about Jesus and technology."
+description: "LiveWires is a technical activity week for 12–17s. Start your summer learning about Jesus and technology."
 og_description: "Start your summer with a week learning about Jesus and technology."
 ---
 
 <h1 class="page-title">Learn more about Jesus and technology this summer.</h1>
 
-* Technical activity week for 12–15s
-* 6th - 13th August 2023
+* Technical activity week for 12–17s
+* 11th - 18th August 2024
 * Salisbury, UK
 
-<a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1066" target="blank" rel="noopener" id="book-now">Book now!</a>
+<a class="cta" href="#" target="blank" rel="noopener" id="book-now">Booking open soon</a>
 
 <div class="columns columns-reverse">
 <img src="/assets/photo/2022/electronics.jpg">
@@ -34,8 +34,6 @@ We've got the knowledge and the gear to teach you everything you need to know. A
 ## Is there more to life than tech?
 
 Dig into the Bible through short talks, chatting with new friends, and praying together. Ask questions about the Christian faith, and explore things that really matter.
-
-In 2023 we’ll be exploring the book of Ruth, and seeing how God turns bitterness into blessing.
 
 </div>
 </div>
@@ -137,7 +135,8 @@ He lives in York with his wife Eliza and their 9 stringed instruments, three dru
 
 LiveWires bookings are managed by [Scripture Union](https://events.scriptureunion.org.uk/). SU have been running summer holidays for over a hundred years.
 
-<a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1066" target="blank" rel="noopener" id="book-now">Book now!</a>
+#<a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1066" target="blank" rel="noopener" id="book-now">Book now!</a>
+<a class="cta" href="#" rel="noopener" id="book-now">Book open soon!</a>
 
 Bookings close when the camp is full, or on 14th July at the latest, so book now to avoid missing out!
 
