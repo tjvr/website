@@ -1,8 +1,8 @@
 ---
 title: "Data Processing Policy"
-social_title: "technical activity week for 12–15s"
+social_title: "technical activity week for 12–17s"
 social_image: "/assets/livewires-og.jpg"
-description: "LiveWires is a technical activity week for 12–15s. Start your summer learning about Jesus and technology."
+description: "LiveWires is a technical activity week for 12–17s. Start your summer learning about Jesus and technology."
 og_description: "Start your summer with a week learning about Jesus and technology."
 ---
 
