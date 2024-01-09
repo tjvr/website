@@ -32,5 +32,7 @@ Then eventually it's time for lights out - ready to sleep so we can do it all ag
 
 A few of our days during the week have a different format, with one completely different day out and some exciting changes on the last night, but you'll have to come on the holiday to find out what those will be this year!
 
+Note: This timetable is from 2023, when the camp didn't cater for 16 and 17 year olds. If you're 17, don't worry, we won't be sending you to bed at 10!
+
 </div>
 </div>
