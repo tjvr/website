@@ -3,6 +3,13 @@ title: "Technical Activities on LiveWires"
 template: "tech.html"
 
 electronics_projects:
+  macro-pad:
+    name: "Macro Pad"
+    description: "Make your own customisable 8-key macro-pad, complete with volume control. Connects to your computer over USB and has 8 mechanical keyboard switches that you can program to do whatever you want, plus a screen, rotary encoder and LEDs!"
+    cost "~£20-£25"
+    electrical: medium
+    mechanical: easy
+
   led-clock:
     name: "LED Clock"
     description: "Make your own clock to display the current time on the 7 segment LED displays. This project uses a ready made circuit board, is complete with the box and external mains power supply unit."
@@ -148,14 +155,15 @@ You'll have time for two or three different activities. This page should help yo
 
 # Coding <a id="coding"></a>
 
-Learn HTML and CSS, the building blocks of the Web, or take your understanding further to build an online game using Javascript.
+Don't just learn to use computers, learn how to make them do whatever you want! Whether that's building an app, game or website, you can level up your skills!
+
 
 <div class="columns">
 <div>
 
-## Web design <a id="coding-web"></a>
+## Programming <a id="coding-js"></a>
 
-Design and build your own web pages. Learn HTML and CSS to create your very own website.
+Start programming for the first time! We’ll guide you through the basic concepts, and we’re here to help if you get stuck!
 
 </div>
 <img src="/assets/photo/2022/coding.jpg">
@@ -164,23 +172,12 @@ Design and build your own web pages. Learn HTML and CSS to create your very own 
 <div class="columns columns-reverse">
 <div>
 
-## Programming <a id="coding-js"></a>
-
-Start programming for the first time by learning JavaScript. We’ll guide you through the basic concepts, and we’re here to help if you get stuck!
-
-</div>
-<img src="/assets/photo/2022/computerhelp.jpg">
-</div>
-
-<div class="columns">
-<div>
-
 ## Games <a id="coding-games"></a>
 
 Once you’ve got the basics of programming, you can build a game using JavaScript and our [games course](https://livewires.github.io/you-win/install). Create your own version of your favourite mobile game, or perhaps something entirely new.
 
 </div>
-<img src="/assets/photo/2022/dualscreens.jpg">
+<img src="/assets/photo/2022/computerhelp.jpg">
 </div>
 
 
@@ -206,7 +203,7 @@ Sculpt, texture and animate your own virtual models or scenery using [Blender](h
 
 ## Sound Production <a id="recording"></a>
 
-Work with others to record, edit, and master a podcast or song with guidance and gear from the professionals.
+Work with others to record, edit, and master a podcast or song with guidance and gear from the professionals. This is a group activity.
 
 </div>
 </div>
