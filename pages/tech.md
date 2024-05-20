@@ -10,20 +10,13 @@ electronics_projects:
     electrical: medium
     mechanical: easy
 
-  led-clock:
-    name: "LED Clock"
-    description: "Make your own clock to display the current time on the 7 segment LED displays. This project uses a ready made circuit board, is complete with the box and external mains power supply unit."
-    cost: "~£20-£25"
-    electrical: medium
-    mechanical: easy
-
   digital-echo-chamber:
     name: "Digital Echo Chamber"
     description: "This circuit takes input from the built-in microphone, or from an external input, and allows you to add echo and feedback to your voice, or music.  This circuit uses a ready make circuit board."
     cost: "~£15-£20"
     electrical: medium
     mechanical: easy
-    
+
   guitar-pedal:
     name: "Guitar Pedal"
     description: "Are you a budding guitarist and would like to build your own distortion pedal? With this project, you can!"
@@ -52,13 +45,6 @@ electronics_projects:
     electrical: medium
     mechanical: easy
 
-  escape-robot:
-    name: "Escape Robot"
-    description: "Build a robot that will find its way out of a maze using sensors and its microprocessor."
-    cost: "~£25-£30"
-    electrical: medium
-    mechanical: advanced
-
   audio-analyser:
     name: "Audio Analyser"
     description: "Build this little project and you can see what your musical instruments or recording are doing: with a graphic display you can see a real-time spectrum of your audio."
@@ -79,13 +65,6 @@ electronics_projects:
     cost: "~£10-£15"
     electrical: medium
     mechanical: medium
-
-  lcd-scrolling-message-display:
-    name: "LCD Scrolling Message Display"
-    description: "Display your own scrolling message! Using the on board buttons you can program this device to display scrolling text on its LCD screen. This project uses a ready-made circuit board making it ideal if you're new to electronics."
-    cost: "~£15-£20"
-    electrical: easy
-    mechanical: none
 
   classic-arcade-game:
     name: "Classic Arcade Game"
