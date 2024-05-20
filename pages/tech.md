@@ -176,7 +176,7 @@ Sculpt, texture and animate your own virtual models or scenery using [Blender](h
 </div>
 </div>
 
-<div class="columns columns">
+<div class="columns">
 <img src="/assets/photo/2022/music.jpg">
 <div>
 
@@ -187,12 +187,17 @@ Work with others to record, edit, and master a podcast or song with guidance and
 </div>
 </div>
 
-## Video Production <a id="recording"></a>
+<div class="columns columns-reverse">
+<img src="/assets/photo/2022/sound.jpg">
+<div>
+
+## Video Production <a id="video"></a>
 
 Shoot and edit a short film or trailer, from storyboarding through to post-production. This is a group activity.
 
-<img src="/assets/photo/2022/sound.jpg">
 
+</div>
+</div>
 
 # Electronics <a id="electronics"></a>
 
