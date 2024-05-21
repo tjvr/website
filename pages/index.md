@@ -120,7 +120,7 @@ He lives in Uxbridge with his wife Nicola and daughter Rachel. In his spare time
 
 Joel is an amateur musician, supported by a full time job as an electronics engineer. During LiveWires you’ll probably find him playing an instrument or coiling up cables.
 
-He lives in York with his wife Eliza and their 9 stringed instruments, three drum kits and an old casiotone keyboard called Gerald.
+He lives in York with his wife Eliza and their 10 stringed instruments, three drum kits and an old keyboard called Gerald.
 
 </div>
 </div>
