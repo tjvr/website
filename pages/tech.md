@@ -4,8 +4,8 @@ template: "tech.html"
 
 electronics_projects:
   macro-pad:
-    name: "Macro Pad"
-    description: "Make your own customisable, programmable 8-key macro-pad, complete with volume control. It connects to your computer over USB and has 8 mechanical keyboard switches that you can program to do whatever you want, plus a screen, rotary encoder and LEDs!"
+    name: "USB Macro Pad"
+    description: "Make your own customisable, programmable 8-key mini keyboard, complete with volume control. It connects to your computer over USB and has 8 mechanical keyboard switches that you can program to do whatever you want, plus a screen, rotary encoder and LEDs!"
     cost: "~£20-£25"
     electrical: medium
     mechanical: easy
