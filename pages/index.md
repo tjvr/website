@@ -59,7 +59,7 @@ We'll teach you everything you need, and you'll come away with something cool to
 
 * **3D Modelling:** Sculpt and animate a virtual model from your imagination using Blender.
 * **Coding:** Write your own mobile game or app using Javascript. Or learn HTML or CSS to build a website.
-* **Electronics:** Pick up a soldering iron and build a cool gadget. Choose between a guitar pedal, a macro keyboard, an LED cube, and more.
+* **Electronics:** Pick up a soldering iron and build a cool gadget. Choose between a macro keybaord, an escaping robot, an LED cube, and more.
 * **Sound Production** Record, edit, and master a podcast or song with professional gear.
 * **Video Production** Shoot and edit a short film or trailer, from storyboarding through to post-production.
 
