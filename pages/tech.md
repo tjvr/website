@@ -45,6 +45,13 @@ electronics_projects:
     electrical: medium
     mechanical: easy
 
+  escape-robot:
+    name: "Escape Robot"
+    description: "Build a robot that will find its way out of a maze using sensors and its microprocessor."
+    cost: "~£25-£30"
+    electrical: medium
+    mechanical: advanced
+
   audio-analyser:
     name: "Audio Analyser"
     description: "Build this little project and you can see what your musical instruments or recording are doing: with a graphic display you can see a real-time spectrum of your audio."
