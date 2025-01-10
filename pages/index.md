@@ -12,7 +12,7 @@ og_description: "Start your summer with a week learning about Jesus and technolo
 * 10th - 17th August 2025
 * Salisbury, UK
 
-<a class="cta" href="" target="blank" rel="noopener" id="book-now">Bookings open later this year</a>
+<a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1187" target="blank" rel="noopener" id="book-now">Book here!</a>
 
 <div class="columns columns-reverse">
 <img src="/assets/photo/2022/electronics.jpg">
@@ -135,7 +135,7 @@ He lives in York with his wife Eliza and their 10 stringed instruments, three dr
 
 LiveWires bookings are managed by [Scripture Union](https://events.scriptureunion.org.uk/). SU have been running summer holidays for over a hundred years.
 
-<a class="cta" href="" target="blank" rel="noopener" id="book-now">Bookings open later this year</a>
+<a class="cta" href="https://events.scriptureunion.org.uk/event.php?id=1187" target="blank" rel="noopener" id="book-now">Book here!</a>
 
 Still have questions? Get in touch! Email Joel &amp; Roger at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;">&#108;&#105;&#118;&#101;&#119;&#105;&#114;&#101;&#115;&#64;&#115;&#99;&#114;&#105;&#112;&#116;&#117;&#114;&#101;&#117;&#110;&#105;&#111;&#110;&#46;&#111;&#114;&#103;&#46;&#117;&#107;</a>,
 or give them a call on [020 3397 1111](tel:02033971111).
